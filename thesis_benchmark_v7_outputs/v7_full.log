@@ -1,0 +1,364 @@
+cihaz=cpu · QUICK=False · tohum=10 · katlar=[5, 4]
+
+=== Mikro-Konut (UCI) ===
+    kaynak: UCI Household Power (gerçek) + örnekleyici 3 zamanlı tarife · 17,520 saat · 2008-11-26 22:00:00 – 2010-11-26 21:00:00
+  [test katı 5]
+    kural, LP ve MPC: 24s
+    40 SAC eğitimi, 7 paralel süreç (40,000 adım/iş)
+      [1/40] CNN-BiLSTM + SAC [önerilen] · tohum 42 · son 10 bölüm ödülü 63.5 (368s)
+      [2/40] SAC (tahminsiz) · tohum 42 · son 10 bölüm ödülü 59.3 (376s)
+      [3/40] Random Forest + SAC · tohum 43 · son 10 bölüm ödülü 32.0 (377s)
+      [4/40] SAC (tahminsiz) · tohum 43 · son 10 bölüm ödülü 26.6 (377s)
+      [5/40] XGBoost + SAC · tohum 42 · son 10 bölüm ödülü 64.2 (378s)
+      [6/40] Random Forest + SAC · tohum 42 · son 10 bölüm ödülü 64.7 (384s)
+      [7/40] XGBoost + SAC · tohum 43 · son 10 bölüm ödülü 34.5 (384s)
+      [8/40] CNN-BiLSTM + SAC [önerilen] · tohum 43 · son 10 bölüm ödülü 33.2 (755s)
+      [9/40] Random Forest + SAC · tohum 45 · son 10 bölüm ödülü 36.3 (766s)
+      [10/40] CNN-BiLSTM + SAC [önerilen] · tohum 44 · son 10 bölüm ödülü 49.9 (768s)
+      [11/40] Random Forest + SAC · tohum 44 · son 10 bölüm ödülü 51.7 (769s)
+      [12/40] SAC (tahminsiz) · tohum 44 · son 10 bölüm ödülü 46.4 (771s)
+      [13/40] XGBoost + SAC · tohum 44 · son 10 bölüm ödülü 48.1 (777s)
+      [14/40] SAC (tahminsiz) · tohum 45 · son 10 bölüm ödülü 32.1 (779s)
+      [15/40] XGBoost + SAC · tohum 45 · son 10 bölüm ödülü 36.1 (1260s)
+      [16/40] SAC (tahminsiz) · tohum 46 · son 10 bölüm ödülü 40.7 (1269s)
+      [17/40] CNN-BiLSTM + SAC [önerilen] · tohum 45 · son 10 bölüm ödülü 31.0 (1274s)
+      [18/40] Random Forest + SAC · tohum 46 · son 10 bölüm ödülü 40.5 (1276s)
+      [19/40] XGBoost + SAC · tohum 46 · son 10 bölüm ödülü 42.3 (1278s)
+      [20/40] CNN-BiLSTM + SAC [önerilen] · tohum 46 · son 10 bölüm ödülü 36.3 (1285s)
+      [21/40] SAC (tahminsiz) · tohum 47 · son 10 bölüm ödülü 49.3 (1287s)
+      [22/40] Random Forest + SAC · tohum 47 · son 10 bölüm ödülü 47.6 (1796s)
+      [23/40] XGBoost + SAC · tohum 47 · son 10 bölüm ödülü 50.1 (1807s)
+      [24/40] SAC (tahminsiz) · tohum 48 · son 10 bölüm ödülü 45.5 (1811s)
+      [25/40] Random Forest + SAC · tohum 48 · son 10 bölüm ödülü 45.8 (1814s)
+      [26/40] CNN-BiLSTM + SAC [önerilen] · tohum 47 · son 10 bölüm ödülü 45.7 (1815s)
+      [27/40] XGBoost + SAC · tohum 48 · son 10 bölüm ödülü 45.4 (1823s)
+      [28/40] CNN-BiLSTM + SAC [önerilen] · tohum 48 · son 10 bölüm ödülü 41.6 (1824s)
+      [29/40] SAC (tahminsiz) · tohum 49 · son 10 bölüm ödülü 41.0 (2329s)
+      [30/40] Random Forest + SAC · tohum 49 · son 10 bölüm ödülü 41.0 (2334s)
+      [31/40] XGBoost + SAC · tohum 49 · son 10 bölüm ödülü 40.8 (2343s)
+      [32/40] CNN-BiLSTM + SAC [önerilen] · tohum 49 · son 10 bölüm ödülü 39.8 (2347s)
+      [33/40] SAC (tahminsiz) · tohum 50 · son 10 bölüm ödülü 44.6 (2348s)
+      [34/40] Random Forest + SAC · tohum 50 · son 10 bölüm ödülü 50.5 (2356s)
+      [35/40] XGBoost + SAC · tohum 50 · son 10 bölüm ödülü 50.0 (2359s)
+      [36/40] CNN-BiLSTM + SAC [önerilen] · tohum 50 · son 10 bölüm ödülü 46.0 (2707s)
+      [37/40] SAC (tahminsiz) · tohum 51 · son 10 bölüm ödülü 41.1 (2711s)
+      [38/40] XGBoost + SAC · tohum 51 · son 10 bölüm ödülü 45.2 (2715s)
+      [39/40] Random Forest + SAC · tohum 51 · son 10 bölüm ödülü 43.5 (2715s)
+      [40/40] CNN-BiLSTM + SAC [önerilen] · tohum 51 · son 10 bölüm ödülü 39.5 (2717s)
+                       Kontrolcü  Birleşik amaçta yakalanan (%)  Birleşik amaçta yakalanan (%) std  Fatura tasarrufu / teorik optimum (%)  İhlal düşüşü (%)
+           Bataryasız [referans]                            0.0                                0.0                                    0.0               0.0
+               Rastgele politika                          -27.5                                4.3                                  -39.2             -13.9
+      Eski kural (yüzdelik eşik)                           17.3                                0.0                                   22.0               9.2
+           Kural tabanlı yönetim                           35.5                                0.0                                   84.9              11.5
+                MPC + CNN-BiLSTM                           37.0                                0.0                                   87.0              12.2
+             MPC + Random Forest                           44.3                                0.0                                   89.8              17.4
+                   MPC + XGBoost                           44.1                                0.0                                   88.7              17.4
+               MPC + naif tahmin                           48.6                                0.0                                   92.5              20.1
+MPC + kusursuz tahmin [referans]                          100.1                                0.0                                  100.3              58.4
+                 SAC (tahminsiz)                           54.8                                2.2                                   68.2              29.5
+             Random Forest + SAC                           59.3                                2.3                                   72.6              32.2
+                   XGBoost + SAC                           59.7                                1.1                                   69.4              33.1
+     CNN-BiLSTM + SAC [önerilen]                           56.3                                1.6                                   81.1              28.3
+       Teorik optimum [referans]                          100.0                                0.0                                  100.0              58.4
+    süre: 2748s
+  [test katı 4]
+    kural, LP ve MPC: 27s
+    40 SAC eğitimi, 7 paralel süreç (40,000 adım/iş)
+      [1/40] SAC (tahminsiz) · tohum 42 · son 10 bölüm ödülü 43.4 (556s)
+      [2/40] SAC (tahminsiz) · tohum 43 · son 10 bölüm ödülü 51.0 (557s)
+      [3/40] XGBoost + SAC · tohum 42 · son 10 bölüm ödülü 43.9 (557s)
+      [4/40] CNN-BiLSTM + SAC [önerilen] · tohum 42 · son 10 bölüm ödülü 46.4 (557s)
+      [5/40] XGBoost + SAC · tohum 43 · son 10 bölüm ödülü 59.6 (557s)
+      [6/40] Random Forest + SAC · tohum 43 · son 10 bölüm ödülü 59.5 (558s)
+      [7/40] Random Forest + SAC · tohum 42 · son 10 bölüm ödülü 44.5 (560s)
+      [8/40] CNN-BiLSTM + SAC [önerilen] · tohum 43 · son 10 bölüm ödülü 50.4 (1101s)
+      [9/40] CNN-BiLSTM + SAC [önerilen] · tohum 44 · son 10 bölüm ödülü 61.1 (1104s)
+      [10/40] SAC (tahminsiz) · tohum 45 · son 10 bölüm ödülü 54.4 (1105s)
+      [11/40] SAC (tahminsiz) · tohum 44 · son 10 bölüm ödülü 64.5 (1106s)
+      [12/40] XGBoost + SAC · tohum 44 · son 10 bölüm ödülü 59.9 (1107s)
+      [13/40] Random Forest + SAC · tohum 44 · son 10 bölüm ödülü 62.9 (1107s)
+      [14/40] Random Forest + SAC · tohum 45 · son 10 bölüm ödülü 51.8 (1109s)
+      [15/40] XGBoost + SAC · tohum 45 · son 10 bölüm ödülü 52.6 (1644s)
+      [16/40] CNN-BiLSTM + SAC [önerilen] · tohum 45 · son 10 bölüm ödülü 53.4 (1648s)
+      [17/40] Random Forest + SAC · tohum 46 · son 10 bölüm ödülü 67.0 (1649s)
+      [18/40] SAC (tahminsiz) · tohum 46 · son 10 bölüm ödülü 60.5 (1649s)
+      [19/40] CNN-BiLSTM + SAC [önerilen] · tohum 46 · son 10 bölüm ödülü 63.8 (1654s)
+      [20/40] SAC (tahminsiz) · tohum 47 · son 10 bölüm ödülü 39.3 (1655s)
+      [21/40] XGBoost + SAC · tohum 46 · son 10 bölüm ödülü 66.0 (1656s)
+      [22/40] Random Forest + SAC · tohum 47 · son 10 bölüm ödülü 40.3 (2194s)
+      [23/40] SAC (tahminsiz) · tohum 48 · son 10 bölüm ödülü 60.4 (2196s)
+      [24/40] XGBoost + SAC · tohum 47 · son 10 bölüm ödülü 42.0 (2197s)
+      [25/40] CNN-BiLSTM + SAC [önerilen] · tohum 47 · son 10 bölüm ödülü 33.9 (2200s)
+      [26/40] XGBoost + SAC · tohum 48 · son 10 bölüm ödülü 67.1 (2203s)
+      [27/40] Random Forest + SAC · tohum 48 · son 10 bölüm ödülü 68.2 (2206s)
+      [28/40] CNN-BiLSTM + SAC [önerilen] · tohum 48 · son 10 bölüm ödülü 62.8 (2207s)
+      [29/40] Random Forest + SAC · tohum 49 · son 10 bölüm ödülü 54.3 (2742s)
+      [30/40] SAC (tahminsiz) · tohum 49 · son 10 bölüm ödülü 55.0 (2744s)
+      [31/40] XGBoost + SAC · tohum 49 · son 10 bölüm ödülü 56.0 (2744s)
+      [32/40] CNN-BiLSTM + SAC [önerilen] · tohum 49 · son 10 bölüm ödülü 53.8 (2751s)
+      [33/40] SAC (tahminsiz) · tohum 50 · son 10 bölüm ödülü 46.3 (2751s)
+      [34/40] XGBoost + SAC · tohum 50 · son 10 bölüm ödülü 47.9 (2754s)
+      [35/40] Random Forest + SAC · tohum 50 · son 10 bölüm ödülü 46.3 (2754s)
+      [36/40] CNN-BiLSTM + SAC [önerilen] · tohum 50 · son 10 bölüm ödülü 42.0 (3121s)
+      [37/40] SAC (tahminsiz) · tohum 51 · son 10 bölüm ödülü 46.7 (3123s)
+      [38/40] CNN-BiLSTM + SAC [önerilen] · tohum 51 · son 10 bölüm ödülü 46.5 (3124s)
+      [39/40] Random Forest + SAC · tohum 51 · son 10 bölüm ödülü 49.6 (3125s)
+      [40/40] XGBoost + SAC · tohum 51 · son 10 bölüm ödülü 51.3 (3127s)
+                       Kontrolcü  Birleşik amaçta yakalanan (%)  Birleşik amaçta yakalanan (%) std  Fatura tasarrufu / teorik optimum (%)  İhlal düşüşü (%)
+           Bataryasız [referans]                            0.0                                0.0                                    0.0               0.0
+               Rastgele politika                          -34.6                                4.1                                  -35.8             -23.7
+      Eski kural (yüzdelik eşik)                            3.1                                0.0                                   25.8              -5.7
+           Kural tabanlı yönetim                           36.8                                0.0                                   86.9               8.5
+                MPC + CNN-BiLSTM                           33.2                                0.0                                   93.5               2.3
+             MPC + Random Forest                           33.6                                0.0                                   91.5               3.5
+                   MPC + XGBoost                           36.9                                0.0                                   93.9               6.1
+               MPC + naif tahmin                           41.5                                0.0                                   90.0              12.2
+MPC + kusursuz tahmin [referans]                           99.8                                0.0                                   99.5              69.9
+                 SAC (tahminsiz)                           42.4                                4.7                                   65.9              21.5
+             Random Forest + SAC                           46.6                                4.3                                   70.3              24.4
+                   XGBoost + SAC                           43.9                                4.8                                   64.7              23.4
+     CNN-BiLSTM + SAC [önerilen]                           43.1                                4.3                                   73.6              19.6
+       Teorik optimum [referans]                          100.0                                0.0                                  100.0              69.9
+    süre: 3161s
+
+=== Makro-Şebeke (ENTSO-E/EPİAŞ) ===
+    kaynak: OPSD / ENTSO-E DE-LU (gerçek) · 17,520 saat · 2018-10-01 23:00:00 – 2020-09-30 22:00:00
+  [test katı 5]
+    kural, LP ve MPC: 26s
+    40 SAC eğitimi, 7 paralel süreç (40,000 adım/iş)
+      [1/40] Random Forest + SAC · tohum 43 · son 10 bölüm ödülü 50.3 (571s)
+      [2/40] CNN-BiLSTM + SAC [önerilen] · tohum 42 · son 10 bölüm ödülü 43.3 (574s)
+      [3/40] Random Forest + SAC · tohum 42 · son 10 bölüm ödülü 44.7 (575s)
+      [4/40] SAC (tahminsiz) · tohum 43 · son 10 bölüm ödülü 53.3 (577s)
+      [5/40] XGBoost + SAC · tohum 42 · son 10 bölüm ödülü 45.5 (578s)
+      [6/40] XGBoost + SAC · tohum 43 · son 10 bölüm ödülü 54.7 (579s)
+      [7/40] SAC (tahminsiz) · tohum 42 · son 10 bölüm ödülü 45.9 (582s)
+      [8/40] CNN-BiLSTM + SAC [önerilen] · tohum 43 · son 10 bölüm ödülü 51.5 (1114s)
+      [9/40] Random Forest + SAC · tohum 44 · son 10 bölüm ödülü 45.1 (1119s)
+      [10/40] SAC (tahminsiz) · tohum 44 · son 10 bölüm ödülü 47.3 (1120s)
+      [11/40] XGBoost + SAC · tohum 44 · son 10 bölüm ödülü 45.5 (1123s)
+      [12/40] CNN-BiLSTM + SAC [önerilen] · tohum 44 · son 10 bölüm ödülü 45.3 (1123s)
+      [13/40] SAC (tahminsiz) · tohum 45 · son 10 bölüm ödülü 39.8 (1129s)
+      [14/40] Random Forest + SAC · tohum 45 · son 10 bölüm ödülü 39.4 (1131s)
+      [15/40] XGBoost + SAC · tohum 45 · son 10 bölüm ödülü 39.1 (1692s)
+      [16/40] SAC (tahminsiz) · tohum 46 · son 10 bölüm ödülü 26.1 (1696s)
+      [17/40] CNN-BiLSTM + SAC [önerilen] · tohum 45 · son 10 bölüm ödülü 38.3 (1697s)
+      [18/40] Random Forest + SAC · tohum 46 · son 10 bölüm ödülü 23.1 (1698s)
+      [19/40] XGBoost + SAC · tohum 46 · son 10 bölüm ödülü 23.5 (1698s)
+      [20/40] CNN-BiLSTM + SAC [önerilen] · tohum 46 · son 10 bölüm ödülü 23.6 (1708s)
+      [21/40] SAC (tahminsiz) · tohum 47 · son 10 bölüm ödülü 47.9 (1713s)
+      [22/40] Random Forest + SAC · tohum 47 · son 10 bölüm ödülü 47.4 (2284s)
+      [23/40] XGBoost + SAC · tohum 47 · son 10 bölüm ödülü 47.8 (2285s)
+      [24/40] Random Forest + SAC · tohum 48 · son 10 bölüm ödülü 42.1 (2288s)
+      [25/40] CNN-BiLSTM + SAC [önerilen] · tohum 47 · son 10 bölüm ödülü 47.0 (2289s)
+      [26/40] SAC (tahminsiz) · tohum 48 · son 10 bölüm ödülü 45.2 (2291s)
+      [27/40] XGBoost + SAC · tohum 48 · son 10 bölüm ödülü 43.7 (2303s)
+      [28/40] CNN-BiLSTM + SAC [önerilen] · tohum 48 · son 10 bölüm ödülü 45.0 (2308s)
+      [29/40] SAC (tahminsiz) · tohum 49 · son 10 bölüm ödülü 38.9 (2986s)
+      [30/40] XGBoost + SAC · tohum 49 · son 10 bölüm ödülü 40.1 (2987s)
+      [31/40] Random Forest + SAC · tohum 49 · son 10 bölüm ödülü 39.0 (2989s)
+      [32/40] SAC (tahminsiz) · tohum 50 · son 10 bölüm ödülü 48.5 (2993s)
+      [33/40] CNN-BiLSTM + SAC [önerilen] · tohum 49 · son 10 bölüm ödülü 42.1 (2994s)
+      [34/40] Random Forest + SAC · tohum 50 · son 10 bölüm ödülü 43.6 (3012s)
+      [35/40] XGBoost + SAC · tohum 50 · son 10 bölüm ödülü 47.7 (3028s)
+      [36/40] Random Forest + SAC · tohum 51 · son 10 bölüm ödülü 42.1 (3504s)
+      [37/40] SAC (tahminsiz) · tohum 51 · son 10 bölüm ödülü 39.8 (3504s)
+      [38/40] CNN-BiLSTM + SAC [önerilen] · tohum 50 · son 10 bölüm ödülü 47.4 (3507s)
+      [39/40] XGBoost + SAC · tohum 51 · son 10 bölüm ödülü 39.5 (3507s)
+      [40/40] CNN-BiLSTM + SAC [önerilen] · tohum 51 · son 10 bölüm ödülü 35.3 (3508s)
+                       Kontrolcü  Birleşik amaçta yakalanan (%)  Birleşik amaçta yakalanan (%) std  Fatura tasarrufu / teorik optimum (%)  İhlal düşüşü (%)
+           Bataryasız [referans]                            0.0                                0.0                                    0.0               0.0
+               Rastgele politika                          -26.8                                2.9                                  -27.3              -0.3
+      Eski kural (yüzdelik eşik)                           20.9                                0.0                                   21.3               0.0
+           Kural tabanlı yönetim                           71.5                                0.0                                   73.0               0.0
+                MPC + CNN-BiLSTM                           97.3                                0.0                                  100.9             -79.5
+             MPC + Random Forest                           98.2                                0.0                                  100.9             -30.7
+                   MPC + XGBoost                           98.5                                0.0                                  100.9             -14.4
+               MPC + naif tahmin                           97.1                                0.0                                  100.8             -79.5
+MPC + kusursuz tahmin [referans]                          100.7                                0.0                                  100.7             100.0
+                 SAC (tahminsiz)                           40.3                                6.7                                   41.0               8.3
+             Random Forest + SAC                           44.3                                8.4                                   44.4              40.5
+                   XGBoost + SAC                           43.3                                6.3                                   43.1              53.3
+     CNN-BiLSTM + SAC [önerilen]                           40.9                                8.1                                   41.1              29.4
+       Teorik optimum [referans]                          100.0                                0.0                                  100.0             100.0
+    süre: 3553s
+  [test katı 4]
+    kural, LP ve MPC: 46s
+    40 SAC eğitimi, 7 paralel süreç (40,000 adım/iş)
+      [1/40] Random Forest + SAC · tohum 42 · son 10 bölüm ödülü 40.2 (644s)
+      [2/40] XGBoost + SAC · tohum 42 · son 10 bölüm ödülü 40.7 (645s)
+      [3/40] SAC (tahminsiz) · tohum 42 · son 10 bölüm ödülü 39.4 (645s)
+      [4/40] CNN-BiLSTM + SAC [önerilen] · tohum 42 · son 10 bölüm ödülü 41.4 (646s)
+      [5/40] XGBoost + SAC · tohum 43 · son 10 bölüm ödülü 39.2 (646s)
+      [6/40] SAC (tahminsiz) · tohum 43 · son 10 bölüm ödülü 38.6 (650s)
+      [7/40] Random Forest + SAC · tohum 43 · son 10 bölüm ödülü 40.0 (651s)
+      [8/40] SAC (tahminsiz) · tohum 44 · son 10 bölüm ödülü 46.0 (1228s)
+      [9/40] Random Forest + SAC · tohum 44 · son 10 bölüm ödülü 43.8 (1234s)
+      [10/40] CNN-BiLSTM + SAC [önerilen] · tohum 43 · son 10 bölüm ödülü 39.5 (1234s)
+      [11/40] CNN-BiLSTM + SAC [önerilen] · tohum 44 · son 10 bölüm ödülü 43.5 (1235s)
+      [12/40] Random Forest + SAC · tohum 45 · son 10 bölüm ödülü 53.7 (1236s)
+      [13/40] XGBoost + SAC · tohum 44 · son 10 bölüm ödülü 44.3 (1236s)
+      [14/40] SAC (tahminsiz) · tohum 45 · son 10 bölüm ödülü 53.0 (1239s)
+      [15/40] XGBoost + SAC · tohum 45 · son 10 bölüm ödülü 53.1 (1809s)
+      [16/40] CNN-BiLSTM + SAC [önerilen] · tohum 45 · son 10 bölüm ödülü 52.0 (1813s)
+      [17/40] XGBoost + SAC · tohum 46 · son 10 bölüm ödülü 50.2 (1817s)
+      [18/40] SAC (tahminsiz) · tohum 46 · son 10 bölüm ödülü 50.3 (1818s)
+      [19/40] Random Forest + SAC · tohum 46 · son 10 bölüm ödülü 50.4 (1818s)
+      [20/40] CNN-BiLSTM + SAC [önerilen] · tohum 46 · son 10 bölüm ödülü 51.3 (1819s)
+      [21/40] SAC (tahminsiz) · tohum 47 · son 10 bölüm ödülü 35.9 (1821s)
+      [22/40] Random Forest + SAC · tohum 47 · son 10 bölüm ödülü 33.9 (2377s)
+      [23/40] XGBoost + SAC · tohum 47 · son 10 bölüm ödülü 32.5 (2380s)
+      [24/40] CNN-BiLSTM + SAC [önerilen] · tohum 47 · son 10 bölüm ödülü 33.8 (2384s)
+      [25/40] SAC (tahminsiz) · tohum 48 · son 10 bölüm ödülü 37.5 (2387s)
+      [26/40] CNN-BiLSTM + SAC [önerilen] · tohum 48 · son 10 bölüm ödülü 36.1 (2395s)
+      [27/40] XGBoost + SAC · tohum 48 · son 10 bölüm ödülü 38.0 (2395s)
+      [28/40] Random Forest + SAC · tohum 48 · son 10 bölüm ödülü 34.6 (2396s)
+      [29/40] SAC (tahminsiz) · tohum 49 · son 10 bölüm ödülü 51.4 (2970s)
+      [30/40] Random Forest + SAC · tohum 49 · son 10 bölüm ödülü 51.7 (2973s)
+      [31/40] XGBoost + SAC · tohum 49 · son 10 bölüm ödülü 52.8 (2978s)
+      [32/40] CNN-BiLSTM + SAC [önerilen] · tohum 49 · son 10 bölüm ödülü 54.3 (2982s)
+      [33/40] XGBoost + SAC · tohum 50 · son 10 bölüm ödülü 25.5 (2989s)
+      [34/40] SAC (tahminsiz) · tohum 50 · son 10 bölüm ödülü 26.4 (2990s)
+      [35/40] Random Forest + SAC · tohum 50 · son 10 bölüm ödülü 26.1 (2993s)
+      [36/40] CNN-BiLSTM + SAC [önerilen] · tohum 50 · son 10 bölüm ödülü 27.3 (3383s)
+      [37/40] Random Forest + SAC · tohum 51 · son 10 bölüm ödülü 46.9 (3388s)
+      [38/40] SAC (tahminsiz) · tohum 51 · son 10 bölüm ödülü 48.2 (3388s)
+      [39/40] XGBoost + SAC · tohum 51 · son 10 bölüm ödülü 47.5 (3390s)
+      [40/40] CNN-BiLSTM + SAC [önerilen] · tohum 51 · son 10 bölüm ödülü 45.3 (3391s)
+                       Kontrolcü  Birleşik amaçta yakalanan (%)  Birleşik amaçta yakalanan (%) std  Fatura tasarrufu / teorik optimum (%)  İhlal düşüşü (%)
+           Bataryasız [referans]                            0.0                                0.0                                    0.0               0.0
+               Rastgele politika                          -19.8                                4.4                                  -23.6              -3.3
+      Eski kural (yüzdelik eşik)                           15.6                                0.0                                   12.2               3.2
+           Kural tabanlı yönetim                           52.5                                0.0                                   71.5               7.9
+                MPC + CNN-BiLSTM                           77.4                                0.0                                  100.9              12.0
+             MPC + Random Forest                           84.2                                0.0                                  101.1              13.9
+                   MPC + XGBoost                           85.0                                0.0                                  100.2              14.2
+               MPC + naif tahmin                           75.0                                0.0                                   99.6              11.5
+MPC + kusursuz tahmin [referans]                          100.1                                0.0                                  100.3              18.3
+                 SAC (tahminsiz)                           62.6                                2.7                                   47.2              12.8
+             Random Forest + SAC                           61.6                                4.1                                   44.5              12.8
+                   XGBoost + SAC                           62.5                                3.6                                   47.5              12.8
+     CNN-BiLSTM + SAC [önerilen]                           61.5                                2.7                                   47.2              12.5
+       Teorik optimum [referans]                          100.0                                0.0                                  100.0              18.3
+    süre: 3444s
+
+=== Mezo-Bina (ASHRAE/BDG2) ===
+    kaynak: Yerel CSV (meso.csv, ör. ASHRAE) + örnekleyici 3 zamanlı tarife · 17,520 saat · 2016-01-02 00:00:00 – 2017-12-31 23:00:00
+  [test katı 5]
+    kural, LP ve MPC: 28s
+    40 SAC eğitimi, 7 paralel süreç (40,000 adım/iş)
+      [1/40] CNN-BiLSTM + SAC [önerilen] · tohum 42 · son 10 bölüm ödülü 63.0 (538s)
+      [2/40] SAC (tahminsiz) · tohum 43 · son 10 bölüm ödülü 47.6 (541s)
+      [3/40] XGBoost + SAC · tohum 43 · son 10 bölüm ödülü 47.2 (544s)
+      [4/40] XGBoost + SAC · tohum 42 · son 10 bölüm ödülü 65.4 (545s)
+      [5/40] SAC (tahminsiz) · tohum 42 · son 10 bölüm ödülü 63.4 (545s)
+      [6/40] Random Forest + SAC · tohum 42 · son 10 bölüm ödülü 63.9 (546s)
+      [7/40] Random Forest + SAC · tohum 43 · son 10 bölüm ödülü 46.5 (549s)
+      [8/40] CNN-BiLSTM + SAC [önerilen] · tohum 43 · son 10 bölüm ödülü 46.8 (1138s)
+      [9/40] SAC (tahminsiz) · tohum 44 · son 10 bölüm ödülü 59.4 (1144s)
+      [10/40] Random Forest + SAC · tohum 44 · son 10 bölüm ödülü 61.4 (1145s)
+      [11/40] CNN-BiLSTM + SAC [önerilen] · tohum 44 · son 10 bölüm ödülü 58.2 (1145s)
+      [12/40] XGBoost + SAC · tohum 44 · son 10 bölüm ödülü 62.0 (1147s)
+      [13/40] SAC (tahminsiz) · tohum 45 · son 10 bölüm ödülü 53.3 (1149s)
+      [14/40] Random Forest + SAC · tohum 45 · son 10 bölüm ödülü 52.4 (1153s)
+      [15/40] XGBoost + SAC · tohum 45 · son 10 bölüm ödülü 52.3 (1752s)
+      [16/40] XGBoost + SAC · tohum 46 · son 10 bölüm ödülü 38.4 (1760s)
+      [17/40] CNN-BiLSTM + SAC [önerilen] · tohum 45 · son 10 bölüm ödülü 52.8 (1761s)
+      [18/40] SAC (tahminsiz) · tohum 46 · son 10 bölüm ödülü 37.1 (1761s)
+      [19/40] Random Forest + SAC · tohum 46 · son 10 bölüm ödülü 39.5 (1762s)
+      [20/40] CNN-BiLSTM + SAC [önerilen] · tohum 46 · son 10 bölüm ödülü 37.7 (1765s)
+      [21/40] SAC (tahminsiz) · tohum 47 · son 10 bölüm ödülü 55.9 (1775s)
+      [22/40] Random Forest + SAC · tohum 47 · son 10 bölüm ödülü 57.2 (2412s)
+      [23/40] CNN-BiLSTM + SAC [önerilen] · tohum 47 · son 10 bölüm ödülü 57.0 (2418s)
+      [24/40] XGBoost + SAC · tohum 47 · son 10 bölüm ödülü 58.1 (2419s)
+      [25/40] SAC (tahminsiz) · tohum 48 · son 10 bölüm ödülü 43.7 (2421s)
+      [26/40] XGBoost + SAC · tohum 48 · son 10 bölüm ödülü 43.9 (2424s)
+      [27/40] Random Forest + SAC · tohum 48 · son 10 bölüm ödülü 43.0 (2424s)
+      [28/40] CNN-BiLSTM + SAC [önerilen] · tohum 48 · son 10 bölüm ödülü 44.0 (2437s)
+      [29/40] SAC (tahminsiz) · tohum 49 · son 10 bölüm ödülü 61.0 (2969s)
+      [30/40] CNN-BiLSTM + SAC [önerilen] · tohum 49 · son 10 bölüm ödülü 59.5 (2974s)
+      [31/40] XGBoost + SAC · tohum 49 · son 10 bölüm ödülü 61.4 (2976s)
+      [32/40] Random Forest + SAC · tohum 49 · son 10 bölüm ödülü 60.4 (2976s)
+      [33/40] SAC (tahminsiz) · tohum 50 · son 10 bölüm ödülü 65.2 (2980s)
+      [34/40] Random Forest + SAC · tohum 50 · son 10 bölüm ödülü 66.5 (2980s)
+      [35/40] XGBoost + SAC · tohum 50 · son 10 bölüm ödülü 65.0 (2995s)
+      [36/40] CNN-BiLSTM + SAC [önerilen] · tohum 50 · son 10 bölüm ödülü 63.1 (3363s)
+      [37/40] Random Forest + SAC · tohum 51 · son 10 bölüm ödülü 47.7 (3367s)
+      [38/40] SAC (tahminsiz) · tohum 51 · son 10 bölüm ödülü 48.9 (3369s)
+      [39/40] XGBoost + SAC · tohum 51 · son 10 bölüm ödülü 49.1 (3370s)
+      [40/40] CNN-BiLSTM + SAC [önerilen] · tohum 51 · son 10 bölüm ödülü 43.6 (3370s)
+                       Kontrolcü  Birleşik amaçta yakalanan (%)  Birleşik amaçta yakalanan (%) std  Fatura tasarrufu / teorik optimum (%)  İhlal düşüşü (%)
+           Bataryasız [referans]                            0.0                                0.0                                    0.0               0.0
+               Rastgele politika                          -41.9                                5.9                                  -31.5             -27.8
+      Eski kural (yüzdelik eşik)                            9.2                                0.0                                   41.4              -0.9
+           Kural tabanlı yönetim                           53.0                                0.0                                  122.5              18.4
+                MPC + CNN-BiLSTM                           88.6                                0.0                                   99.5              52.1
+             MPC + Random Forest                           91.7                                0.0                                   99.8              54.6
+                   MPC + XGBoost                           91.6                                0.0                                   99.7              54.5
+               MPC + naif tahmin                           75.8                                0.0                                   99.9              41.6
+MPC + kusursuz tahmin [referans]                          100.0                                0.0                                  100.1              61.3
+                 SAC (tahminsiz)                           87.0                                2.5                                   68.1              57.2
+             Random Forest + SAC                           86.3                                2.1                                   68.7              56.5
+                   XGBoost + SAC                           87.9                                1.3                                   72.3              57.1
+     CNN-BiLSTM + SAC [önerilen]                           85.8                                2.2                                   68.5              56.2
+       Teorik optimum [referans]                          100.0                                0.0                                  100.0              61.3
+    süre: 3405s
+  [test katı 4]
+    kural, LP ve MPC: 28s
+    40 SAC eğitimi, 7 paralel süreç (40,000 adım/iş)
+      [1/40] Random Forest + SAC · tohum 42 · son 10 bölüm ödülü 49.2 (533s)
+      [2/40] Random Forest + SAC · tohum 43 · son 10 bölüm ödülü 60.8 (538s)
+      [3/40] CNN-BiLSTM + SAC [önerilen] · tohum 42 · son 10 bölüm ödülü 48.2 (539s)
+      [4/40] SAC (tahminsiz) · tohum 42 · son 10 bölüm ödülü 47.0 (539s)
+      [5/40] XGBoost + SAC · tohum 43 · son 10 bölüm ödülü 61.7 (540s)
+      [6/40] SAC (tahminsiz) · tohum 43 · son 10 bölüm ödülü 61.8 (542s)
+      [7/40] XGBoost + SAC · tohum 42 · son 10 bölüm ödülü 51.4 (543s)
+      [8/40] CNN-BiLSTM + SAC [önerilen] · tohum 43 · son 10 bölüm ödülü 59.3 (1062s)
+      [9/40] XGBoost + SAC · tohum 44 · son 10 bölüm ödülü 66.5 (1067s)
+      [10/40] SAC (tahminsiz) · tohum 44 · son 10 bölüm ödülü 64.7 (1071s)
+      [11/40] CNN-BiLSTM + SAC [önerilen] · tohum 44 · son 10 bölüm ödülü 63.0 (1072s)
+      [12/40] Random Forest + SAC · tohum 44 · son 10 bölüm ödülü 63.9 (1073s)
+      [13/40] SAC (tahminsiz) · tohum 45 · son 10 bölüm ödülü 50.2 (1073s)
+      [14/40] Random Forest + SAC · tohum 45 · son 10 bölüm ödülü 50.2 (1074s)
+      [15/40] XGBoost + SAC · tohum 45 · son 10 bölüm ödülü 50.5 (1598s)
+      [16/40] CNN-BiLSTM + SAC [önerilen] · tohum 45 · son 10 bölüm ödülü 48.3 (1605s)
+      [17/40] SAC (tahminsiz) · tohum 46 · son 10 bölüm ödülü 37.9 (1609s)
+      [18/40] SAC (tahminsiz) · tohum 47 · son 10 bölüm ödülü 59.1 (1610s)
+      [19/40] Random Forest + SAC · tohum 46 · son 10 bölüm ödülü 42.1 (1611s)
+      [20/40] CNN-BiLSTM + SAC [önerilen] · tohum 46 · son 10 bölüm ödülü 39.8 (1612s)
+      [21/40] XGBoost + SAC · tohum 46 · son 10 bölüm ödülü 42.8 (1614s)
+      [22/40] Random Forest + SAC · tohum 47 · son 10 bölüm ödülü 60.0 (2176s)
+      [23/40] XGBoost + SAC · tohum 47 · son 10 bölüm ödülü 60.7 (2186s)
+      [24/40] SAC (tahminsiz) · tohum 48 · son 10 bölüm ödülü 60.6 (2190s)
+      [25/40] Random Forest + SAC · tohum 48 · son 10 bölüm ödülü 59.4 (2191s)
+      [26/40] CNN-BiLSTM + SAC [önerilen] · tohum 47 · son 10 bölüm ödülü 60.6 (2191s)
+      [27/40] XGBoost + SAC · tohum 48 · son 10 bölüm ödülü 60.7 (2195s)
+      [28/40] CNN-BiLSTM + SAC [önerilen] · tohum 48 · son 10 bölüm ödülü 59.4 (2200s)
+      [29/40] SAC (tahminsiz) · tohum 49 · son 10 bölüm ödülü 48.8 (2725s)
+      [30/40] SAC (tahminsiz) · tohum 50 · son 10 bölüm ödülü 62.1 (2739s)
+      [31/40] Random Forest + SAC · tohum 49 · son 10 bölüm ödülü 52.3 (2740s)
+      [32/40] CNN-BiLSTM + SAC [önerilen] · tohum 49 · son 10 bölüm ödülü 47.7 (2742s)
+      [33/40] XGBoost + SAC · tohum 49 · son 10 bölüm ödülü 50.3 (2743s)
+      [34/40] Random Forest + SAC · tohum 50 · son 10 bölüm ödülü 60.7 (2751s)
+      [35/40] XGBoost + SAC · tohum 50 · son 10 bölüm ödülü 62.9 (2753s)
+      [36/40] CNN-BiLSTM + SAC [önerilen] · tohum 50 · son 10 bölüm ödülü 61.3 (3110s)
+      [37/40] SAC (tahminsiz) · tohum 51 · son 10 bölüm ödülü 40.7 (3114s)
+      [38/40] XGBoost + SAC · tohum 51 · son 10 bölüm ödülü 45.1 (3116s)
+      [39/40] Random Forest + SAC · tohum 51 · son 10 bölüm ödülü 41.3 (3118s)
+      [40/40] CNN-BiLSTM + SAC [önerilen] · tohum 51 · son 10 bölüm ödülü 40.1 (3118s)
+                       Kontrolcü  Birleşik amaçta yakalanan (%)  Birleşik amaçta yakalanan (%) std  Fatura tasarrufu / teorik optimum (%)  İhlal düşüşü (%)
+           Bataryasız [referans]                            0.0                                0.0                                    0.0               0.0
+               Rastgele politika                          -51.9                                5.3                                  -35.0             -38.4
+      Eski kural (yüzdelik eşik)                            9.7                                0.0                                   43.5              -0.4
+           Kural tabanlı yönetim                           48.4                                0.0                                  127.6              16.4
+                MPC + CNN-BiLSTM                           74.7                                0.0                                  104.6              44.1
+             MPC + Random Forest                           89.9                                0.0                                   98.3              58.8
+                   MPC + XGBoost                           90.4                                0.0                                   98.0              59.2
+               MPC + naif tahmin                           72.4                                0.0                                   99.3              43.3
+MPC + kusursuz tahmin [referans]                           99.9                                0.0                                   99.4              67.3
+                 SAC (tahminsiz)                           82.1                                3.2                                   64.7              58.8
+             Random Forest + SAC                           85.6                                2.3                                   68.8              61.0
+                   XGBoost + SAC                           84.0                                2.4                                   63.6              60.7
+     CNN-BiLSTM + SAC [önerilen]                           85.5                                1.8                                   73.1              60.1
+       Teorik optimum [referans]                          100.0                                0.0                                  100.0              67.3
+    süre: 3154s

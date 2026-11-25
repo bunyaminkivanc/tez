@@ -1,0 +1,23 @@
+λ=5 · tohum=10 · kat=5 · SAC adımı=40,000
+
+=== Mikro-Konut (UCI) ===
+    kural, LP, MPC: 5s
+    10 SAC eğitimi, 7 paralel süreç (40,000 adım/iş)
+      [1/10] Random Forest + SAC · tohum 43 · son 10 bölüm ödülü 21.4 (357s)
+      [2/10] Random Forest + SAC · tohum 48 · son 10 bölüm ödülü 32.3 (361s)
+      [3/10] Random Forest + SAC · tohum 47 · son 10 bölüm ödülü 29.9 (362s)
+      [4/10] Random Forest + SAC · tohum 42 · son 10 bölüm ödülü 44.4 (366s)
+      [5/10] Random Forest + SAC · tohum 46 · son 10 bölüm ödülü 29.6 (367s)
+      [6/10] Random Forest + SAC · tohum 45 · son 10 bölüm ödülü 19.8 (368s)
+      [7/10] Random Forest + SAC · tohum 44 · son 10 bölüm ödülü 34.3 (373s)
+      [8/10] Random Forest + SAC · tohum 51 · son 10 bölüm ödülü 29.9 (553s)
+      [9/10] Random Forest + SAC · tohum 49 · son 10 bölüm ödülü 29.9 (557s)
+      [10/10] Random Forest + SAC · tohum 50 · son 10 bölüm ödülü 40.3 (560s)
+                           Birleşik amaçta yakalanan (%)  Tasarruf (%)  İhlal düşüşü (%)
+Kontrolcü                                                                               
+Bataryasız [referans]                               0.00          0.00              0.00
+Kural tabanlı yönetim                               8.78          2.37             -1.35
+Teorik optimum [referans]                         100.00          4.30             58.38
+MPC + Random Forest                                 9.30          3.03             -3.12
+Random Forest + SAC                                36.06          0.94             23.03
+    süre: 568s

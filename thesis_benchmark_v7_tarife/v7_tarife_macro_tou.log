@@ -1,0 +1,23 @@
+λ=5 · tohum=10 · kat=5 · SAC adımı=40,000
+
+=== Makro-Şebeke (ENTSO-E/EPİAŞ) ===
+    kural, LP, MPC: 5s
+    10 SAC eğitimi, 7 paralel süreç (40,000 adım/iş)
+      [1/10] Random Forest + SAC · tohum 46 · son 10 bölüm ödülü 29.3 (333s)
+      [2/10] Random Forest + SAC · tohum 47 · son 10 bölüm ödülü 55.0 (342s)
+      [3/10] Random Forest + SAC · tohum 48 · son 10 bölüm ödülü 53.3 (345s)
+      [4/10] Random Forest + SAC · tohum 44 · son 10 bölüm ödülü 49.6 (346s)
+      [5/10] Random Forest + SAC · tohum 45 · son 10 bölüm ödülü 50.5 (347s)
+      [6/10] Random Forest + SAC · tohum 42 · son 10 bölüm ödülü 49.4 (348s)
+      [7/10] Random Forest + SAC · tohum 43 · son 10 bölüm ödülü 58.6 (350s)
+      [8/10] Random Forest + SAC · tohum 50 · son 10 bölüm ödülü 54.9 (533s)
+      [9/10] Random Forest + SAC · tohum 49 · son 10 bölüm ödülü 45.4 (539s)
+      [10/10] Random Forest + SAC · tohum 51 · son 10 bölüm ödülü 48.5 (539s)
+                           Birleşik amaçta yakalanan (%)  Tasarruf (%)  İhlal düşüşü (%)
+Kontrolcü                                                                               
+Bataryasız [referans]                               0.00          0.00              0.00
+Kural tabanlı yönetim                              98.36          0.24              0.00
+Teorik optimum [referans]                         100.00          0.24            100.00
+MPC + Random Forest                                98.72          0.24             23.58
+Random Forest + SAC                                73.07          0.18             79.93
+    süre: 545s

@@ -1,0 +1,67 @@
+λ=2 · tohum=10 · kat=5 · SAC adımı=40,000
+
+=== Mikro-Konut (UCI) ===
+    kural, LP, MPC: 6s
+    10 SAC eğitimi, 7 paralel süreç (40,000 adım/iş)
+      [1/10] Random Forest + SAC · tohum 45 · son 10 bölüm ödülü 23.8 (554s)
+      [2/10] Random Forest + SAC · tohum 43 · son 10 bölüm ödülü 22.1 (555s)
+      [3/10] Random Forest + SAC · tohum 47 · son 10 bölüm ödülü 28.8 (560s)
+      [4/10] Random Forest + SAC · tohum 46 · son 10 bölüm ödülü 25.7 (560s)
+      [5/10] Random Forest + SAC · tohum 44 · son 10 bölüm ödülü 28.6 (561s)
+      [6/10] Random Forest + SAC · tohum 42 · son 10 bölüm ödülü 35.6 (561s)
+      [7/10] Random Forest + SAC · tohum 48 · son 10 bölüm ödülü 27.3 (561s)
+      [8/10] Random Forest + SAC · tohum 50 · son 10 bölüm ödülü 28.9 (793s)
+      [9/10] Random Forest + SAC · tohum 51 · son 10 bölüm ödülü 26.5 (795s)
+      [10/10] Random Forest + SAC · tohum 49 · son 10 bölüm ödülü 25.8 (804s)
+                           Birleşik amaçta yakalanan (%)  Tasarruf (%)  İhlal düşüşü (%)
+Kontrolcü                                                                               
+Bataryasız [referans]                               0.00          0.00              0.00
+Kural tabanlı yönetim                              48.71          4.69             11.53
+Teorik optimum [referans]                         100.00          5.53             58.38
+MPC + Random Forest                                56.47          4.97             17.36
+Random Forest + SAC                                67.47          4.74             30.89
+    süre: 813s
+
+=== Makro-Şebeke (ENTSO-E/EPİAŞ) ===
+    kural, LP, MPC: 6s
+    10 SAC eğitimi, 7 paralel süreç (40,000 adım/iş)
+      [1/10] Random Forest + SAC · tohum 47 · son 10 bölüm ödülü 27.2 (569s)
+      [2/10] Random Forest + SAC · tohum 43 · son 10 bölüm ödülü 26.3 (569s)
+      [3/10] Random Forest + SAC · tohum 42 · son 10 bölüm ödülü 24.7 (570s)
+      [4/10] Random Forest + SAC · tohum 44 · son 10 bölüm ödülü 25.5 (570s)
+      [5/10] Random Forest + SAC · tohum 48 · son 10 bölüm ödülü 23.5 (571s)
+      [6/10] Random Forest + SAC · tohum 45 · son 10 bölüm ödülü 21.3 (573s)
+      [7/10] Random Forest + SAC · tohum 46 · son 10 bölüm ödülü 17.5 (573s)
+      [8/10] Random Forest + SAC · tohum 51 · son 10 bölüm ödülü 23.2 (816s)
+      [9/10] Random Forest + SAC · tohum 49 · son 10 bölüm ödülü 23.5 (819s)
+      [10/10] Random Forest + SAC · tohum 50 · son 10 bölüm ödülü 25.2 (820s)
+                           Birleşik amaçta yakalanan (%)  Tasarruf (%)  İhlal düşüşü (%)
+Kontrolcü                                                                               
+Bataryasız [referans]                               0.00          0.00              0.00
+Kural tabanlı yönetim                              72.43          0.16              0.00
+Teorik optimum [referans]                         100.00          0.22            100.00
+MPC + Random Forest                                99.78          0.22            -30.67
+Random Forest + SAC                                71.54          0.16             20.43
+    süre: 829s
+
+=== Mezo-Bina (ASHRAE/BDG2) ===
+    kural, LP, MPC: 6s
+    10 SAC eğitimi, 7 paralel süreç (40,000 adım/iş)
+      [1/10] Random Forest + SAC · tohum 44 · son 10 bölüm ödülü 32.4 (563s)
+      [2/10] Random Forest + SAC · tohum 45 · son 10 bölüm ödülü 29.5 (564s)
+      [3/10] Random Forest + SAC · tohum 46 · son 10 bölüm ödülü 24.6 (566s)
+      [4/10] Random Forest + SAC · tohum 42 · son 10 bölüm ödülü 34.0 (568s)
+      [5/10] Random Forest + SAC · tohum 47 · son 10 bölüm ödülü 31.0 (569s)
+      [6/10] Random Forest + SAC · tohum 48 · son 10 bölüm ödülü 26.3 (571s)
+      [7/10] Random Forest + SAC · tohum 43 · son 10 bölüm ödülü 27.4 (573s)
+      [8/10] Random Forest + SAC · tohum 49 · son 10 bölüm ödülü 32.3 (809s)
+      [9/10] Random Forest + SAC · tohum 50 · son 10 bölüm ödülü 33.6 (811s)
+      [10/10] Random Forest + SAC · tohum 51 · son 10 bölüm ödülü 29.2 (812s)
+                           Birleşik amaçta yakalanan (%)  Tasarruf (%)  İhlal düşüşü (%)
+Kontrolcü                                                                               
+Bataryasız [referans]                               0.00          0.00              0.00
+Kural tabanlı yönetim                              71.91          5.32             18.44
+Teorik optimum [referans]                         100.00          4.34             61.34
+MPC + Random Forest                                93.70          4.33             54.39
+Random Forest + SAC                                90.95          3.86             56.86
+    süre: 821s

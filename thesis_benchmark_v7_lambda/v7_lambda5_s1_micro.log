@@ -1,0 +1,14 @@
+λ=5 · tohum=1 · kat=5 · SAC adımı=40,000
+
+=== Mikro-Konut (UCI) ===
+    kural, LP, MPC: 5s
+    1 SAC eğitimi, 1 paralel süreç (40,000 adım/iş)
+      [1/1] Random Forest + SAC · tohum 42 · son 10 bölüm ödülü 64.7 (99s)
+                           Birleşik amaçta yakalanan (%)  Tasarruf (%)  İhlal düşüşü (%)
+Kontrolcü                                                                               
+Bataryasız [referans]                               0.00          0.00              0.00
+Kural tabanlı yönetim                              35.55          4.69             11.53
+Teorik optimum [referans]                         100.00          5.53             58.38
+MPC + Random Forest                                44.32          4.97             17.37
+Random Forest + SAC                                59.81          4.02             32.52
+    süre: 105s

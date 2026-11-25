@@ -1,0 +1,23 @@
+λ=5 · tohum=10 · kat=5 · SAC adımı=40,000
+
+=== Mezo-Bina (ASHRAE/BDG2) ===
+    kural, LP, MPC: 5s
+    10 SAC eğitimi, 7 paralel süreç (40,000 adım/iş)
+      [1/10] Random Forest + SAC · tohum 43 · son 10 bölüm ödülü 37.8 (351s)
+      [2/10] Random Forest + SAC · tohum 44 · son 10 bölüm ödülü 53.9 (356s)
+      [3/10] Random Forest + SAC · tohum 48 · son 10 bölüm ödülü 35.0 (358s)
+      [4/10] Random Forest + SAC · tohum 47 · son 10 bölüm ödülü 49.0 (362s)
+      [5/10] Random Forest + SAC · tohum 42 · son 10 bölüm ödülü 56.9 (369s)
+      [6/10] Random Forest + SAC · tohum 45 · son 10 bölüm ödülü 42.6 (370s)
+      [7/10] Random Forest + SAC · tohum 46 · son 10 bölüm ödülü 33.0 (385s)
+      [8/10] Random Forest + SAC · tohum 51 · son 10 bölüm ödülü 43.7 (551s)
+      [9/10] Random Forest + SAC · tohum 49 · son 10 bölüm ödülü 49.5 (555s)
+      [10/10] Random Forest + SAC · tohum 50 · son 10 bölüm ödülü 59.0 (563s)
+                           Birleşik amaçta yakalanan (%)  Tasarruf (%)  İhlal düşüşü (%)
+Kontrolcü                                                                               
+Bataryasız [referans]                               0.00          0.00              0.00
+Kural tabanlı yönetim                              23.46          3.08              4.46
+Teorik optimum [referans]                         100.00          3.61             61.31
+MPC + Random Forest                                82.89          3.61             48.08
+Random Forest + SAC                                75.22          0.73             54.94
+    süre: 570s

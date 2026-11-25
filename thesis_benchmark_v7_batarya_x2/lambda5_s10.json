@@ -1,0 +1,1868 @@
+[
+  {
+    "key": "micro",
+    "name": "Mikro-Konut (UCI)",
+    "params": {
+      "lam": 5.0,
+      "viol_pen": 12.812628782472528,
+      "E": 4.42477804939075,
+      "Pb": 1.1061945123476875,
+      "P_lim": 1.9543133333333333,
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51
+      ],
+      "test_fold": 5,
+      "base_violation": 177.5103120567376,
+      "base_viol_hours": 315
+    },
+    "per_seed": [
+      {
+        "Kontrolcü": "Bataryasız [referans]",
+        "Birleşik amaçta yakalanan (%)": 0.0,
+        "Tasarruf (%)": 0.0,
+        "İhlal düşüşü (%)": 0.0,
+        "Toplam ihlal": 177.5103120567376,
+        "İhlalli saat": 315,
+        "Bitiş SoC": 0.5,
+        "Tohum": 42
+      },
+      {
+        "Kontrolcü": "Kural tabanlı yönetim",
+        "Birleşik amaçta yakalanan (%)": 27.86034465744193,
+        "Tasarruf (%)": 5.711600995313355,
+        "İhlal düşüşü (%)": 13.848123714233218,
+        "Toplam ihlal": 152.92846443759913,
+        "İhlalli saat": 301,
+        "Bitiş SoC": 0.1,
+        "Tohum": 42
+      },
+      {
+        "Kontrolcü": "Teorik optimum [referans]",
+        "Birleşik amaçta yakalanan (%)": 100.0,
+        "Tasarruf (%)": 10.548894801790615,
+        "İhlal düşüşü (%)": 83.35007633842618,
+        "Toplam ihlal": 29.555331448868298,
+        "İhlalli saat": 82,
+        "Bitiş SoC": 0.5,
+        "Tohum": 42
+      },
+      {
+        "Kontrolcü": "MPC + Random Forest",
+        "Birleşik amaçta yakalanan (%)": 41.318353061532726,
+        "Tasarruf (%)": 8.307168655675694,
+        "İhlal düşüşü (%)": 21.090021253850576,
+        "Toplam ihlal": 140.07334951619515,
+        "İhlalli saat": 308,
+        "Bitiş SoC": 0.251044101773036,
+        "Tohum": 42
+      },
+      {
+        "Kontrolcü": "Random Forest + SAC",
+        "Birleşik amaçta yakalanan (%)": 55.33354127471668,
+        "Tasarruf (%)": 6.317636203449497,
+        "İhlal düşüşü (%)": 44.49591875152162,
+        "Toplam ihlal": 98.52546782839914,
+        "İhlalli saat": 184,
+        "Bitiş SoC": 0.1,
+        "Tohum": 42
+      },
+      {
+        "Kontrolcü": "Bataryasız [referans]",
+        "Birleşik amaçta yakalanan (%)": 0.0,
+        "Tasarruf (%)": 0.0,
+        "İhlal düşüşü (%)": 0.0,
+        "Toplam ihlal": 177.5103120567376,
+        "İhlalli saat": 315,
+        "Bitiş SoC": 0.5,
+        "Tohum": 43
+      },
+      {
+        "Kontrolcü": "Kural tabanlı yönetim",
+        "Birleşik amaçta yakalanan (%)": 27.86034465744193,
+        "Tasarruf (%)": 5.711600995313355,
+        "İhlal düşüşü (%)": 13.848123714233218,
+        "Toplam ihlal": 152.92846443759913,
+        "İhlalli saat": 301,
+        "Bitiş SoC": 0.1,
+        "Tohum": 43
+      },
+      {
+        "Kontrolcü": "Teorik optimum [referans]",
+        "Birleşik amaçta yakalanan (%)": 100.0,
+        "Tasarruf (%)": 10.548894801790615,
+        "İhlal düşüşü (%)": 83.35007633842618,
+        "Toplam ihlal": 29.555331448868298,
+        "İhlalli saat": 82,
+        "Bitiş SoC": 0.5,
+        "Tohum": 43
+      },
+      {
+        "Kontrolcü": "MPC + Random Forest",
+        "Birleşik amaçta yakalanan (%)": 41.318353061532726,
+        "Tasarruf (%)": 8.307168655675694,
+        "İhlal düşüşü (%)": 21.090021253850576,
+        "Toplam ihlal": 140.07334951619515,
+        "İhlalli saat": 308,
+        "Bitiş SoC": 0.251044101773036,
+        "Tohum": 43
+      },
+      {
+        "Kontrolcü": "Random Forest + SAC",
+        "Birleşik amaçta yakalanan (%)": 56.47855711412819,
+        "Tasarruf (%)": 6.076977567433362,
+        "İhlal düşüşü (%)": 46.67223084460602,
+        "Toplam ihlal": 94.66228944063651,
+        "İhlalli saat": 182,
+        "Bitiş SoC": 0.1,
+        "Tohum": 43
+      },
+      {
+        "Kontrolcü": "Bataryasız [referans]",
+        "Birleşik amaçta yakalanan (%)": 0.0,
+        "Tasarruf (%)": 0.0,
+        "İhlal düşüşü (%)": 0.0,
+        "Toplam ihlal": 177.5103120567376,
+        "İhlalli saat": 315,
+        "Bitiş SoC": 0.5,
+        "Tohum": 44
+      },
+      {
+        "Kontrolcü": "Kural tabanlı yönetim",
+        "Birleşik amaçta yakalanan (%)": 27.86034465744193,
+        "Tasarruf (%)": 5.711600995313355,
+        "İhlal düşüşü (%)": 13.848123714233218,
+        "Toplam ihlal": 152.92846443759913,
+        "İhlalli saat": 301,
+        "Bitiş SoC": 0.1,
+        "Tohum": 44
+      },
+      {
+        "Kontrolcü": "Teorik optimum [referans]",
+        "Birleşik amaçta yakalanan (%)": 100.0,
+        "Tasarruf (%)": 10.548894801790615,
+        "İhlal düşüşü (%)": 83.35007633842618,
+        "Toplam ihlal": 29.555331448868298,
+        "İhlalli saat": 82,
+        "Bitiş SoC": 0.5,
+        "Tohum": 44
+      },
+      {
+        "Kontrolcü": "MPC + Random Forest",
+        "Birleşik amaçta yakalanan (%)": 41.318353061532726,
+        "Tasarruf (%)": 8.307168655675694,
+        "İhlal düşüşü (%)": 21.090021253850576,
+        "Toplam ihlal": 140.07334951619515,
+        "İhlalli saat": 308,
+        "Bitiş SoC": 0.251044101773036,
+        "Tohum": 44
+      },
+      {
+        "Kontrolcü": "Random Forest + SAC",
+        "Birleşik amaçta yakalanan (%)": 57.12562160491353,
+        "Tasarruf (%)": 6.819535120120077,
+        "İhlal düşüşü (%)": 44.93195021734277,
+        "Toplam ihlal": 97.75146701275447,
+        "İhlalli saat": 205,
+        "Bitiş SoC": 0.1,
+        "Tohum": 44
+      },
+      {
+        "Kontrolcü": "Bataryasız [referans]",
+        "Birleşik amaçta yakalanan (%)": 0.0,
+        "Tasarruf (%)": 0.0,
+        "İhlal düşüşü (%)": 0.0,
+        "Toplam ihlal": 177.5103120567376,
+        "İhlalli saat": 315,
+        "Bitiş SoC": 0.5,
+        "Tohum": 45
+      },
+      {
+        "Kontrolcü": "Kural tabanlı yönetim",
+        "Birleşik amaçta yakalanan (%)": 27.86034465744193,
+        "Tasarruf (%)": 5.711600995313355,
+        "İhlal düşüşü (%)": 13.848123714233218,
+        "Toplam ihlal": 152.92846443759913,
+        "İhlalli saat": 301,
+        "Bitiş SoC": 0.1,
+        "Tohum": 45
+      },
+      {
+        "Kontrolcü": "Teorik optimum [referans]",
+        "Birleşik amaçta yakalanan (%)": 100.0,
+        "Tasarruf (%)": 10.548894801790615,
+        "İhlal düşüşü (%)": 83.35007633842618,
+        "Toplam ihlal": 29.555331448868298,
+        "İhlalli saat": 82,
+        "Bitiş SoC": 0.5,
+        "Tohum": 45
+      },
+      {
+        "Kontrolcü": "MPC + Random Forest",
+        "Birleşik amaçta yakalanan (%)": 41.318353061532726,
+        "Tasarruf (%)": 8.307168655675694,
+        "İhlal düşüşü (%)": 21.090021253850576,
+        "Toplam ihlal": 140.07334951619515,
+        "İhlalli saat": 308,
+        "Bitiş SoC": 0.251044101773036,
+        "Tohum": 45
+      },
+      {
+        "Kontrolcü": "Random Forest + SAC",
+        "Birleşik amaçta yakalanan (%)": 49.61879816176816,
+        "Tasarruf (%)": 6.640201463517014,
+        "İhlal düşüşü (%)": 36.60414347186541,
+        "Toplam ihlal": 112.53418275413337,
+        "İhlalli saat": 216,
+        "Bitiş SoC": 0.1,
+        "Tohum": 45
+      },
+      {
+        "Kontrolcü": "Bataryasız [referans]",
+        "Birleşik amaçta yakalanan (%)": 0.0,
+        "Tasarruf (%)": 0.0,
+        "İhlal düşüşü (%)": 0.0,
+        "Toplam ihlal": 177.5103120567376,
+        "İhlalli saat": 315,
+        "Bitiş SoC": 0.5,
+        "Tohum": 46
+      },
+      {
+        "Kontrolcü": "Kural tabanlı yönetim",
+        "Birleşik amaçta yakalanan (%)": 27.86034465744193,
+        "Tasarruf (%)": 5.711600995313355,
+        "İhlal düşüşü (%)": 13.848123714233218,
+        "Toplam ihlal": 152.92846443759913,
+        "İhlalli saat": 301,
+        "Bitiş SoC": 0.1,
+        "Tohum": 46
+      },
+      {
+        "Kontrolcü": "Teorik optimum [referans]",
+        "Birleşik amaçta yakalanan (%)": 100.0,
+        "Tasarruf (%)": 10.548894801790615,
+        "İhlal düşüşü (%)": 83.35007633842618,
+        "Toplam ihlal": 29.555331448868298,
+        "İhlalli saat": 82,
+        "Bitiş SoC": 0.5,
+        "Tohum": 46
+      },
+      {
+        "Kontrolcü": "MPC + Random Forest",
+        "Birleşik amaçta yakalanan (%)": 41.318353061532726,
+        "Tasarruf (%)": 8.307168655675694,
+        "İhlal düşüşü (%)": 21.090021253850576,
+        "Toplam ihlal": 140.07334951619515,
+        "İhlalli saat": 308,
+        "Bitiş SoC": 0.251044101773036,
+        "Tohum": 46
+      },
+      {
+        "Kontrolcü": "Random Forest + SAC",
+        "Birleşik amaçta yakalanan (%)": 60.59942279019415,
+        "Tasarruf (%)": 7.536886694530476,
+        "İhlal düşüşü (%)": 46.64106239533049,
+        "Toplam ihlal": 94.71761665220876,
+        "İhlalli saat": 205,
+        "Bitiş SoC": 0.1,
+        "Tohum": 46
+      },
+      {
+        "Kontrolcü": "Bataryasız [referans]",
+        "Birleşik amaçta yakalanan (%)": 0.0,
+        "Tasarruf (%)": 0.0,
+        "İhlal düşüşü (%)": 0.0,
+        "Toplam ihlal": 177.5103120567376,
+        "İhlalli saat": 315,
+        "Bitiş SoC": 0.5,
+        "Tohum": 47
+      },
+      {
+        "Kontrolcü": "Kural tabanlı yönetim",
+        "Birleşik amaçta yakalanan (%)": 27.86034465744193,
+        "Tasarruf (%)": 5.711600995313355,
+        "İhlal düşüşü (%)": 13.848123714233218,
+        "Toplam ihlal": 152.92846443759913,
+        "İhlalli saat": 301,
+        "Bitiş SoC": 0.1,
+        "Tohum": 47
+      },
+      {
+        "Kontrolcü": "Teorik optimum [referans]",
+        "Birleşik amaçta yakalanan (%)": 100.0,
+        "Tasarruf (%)": 10.548894801790615,
+        "İhlal düşüşü (%)": 83.35007633842618,
+        "Toplam ihlal": 29.555331448868298,
+        "İhlalli saat": 82,
+        "Bitiş SoC": 0.5,
+        "Tohum": 47
+      },
+      {
+        "Kontrolcü": "MPC + Random Forest",
+        "Birleşik amaçta yakalanan (%)": 41.318353061532726,
+        "Tasarruf (%)": 8.307168655675694,
+        "İhlal düşüşü (%)": 21.090021253850576,
+        "Toplam ihlal": 140.07334951619515,
+        "İhlalli saat": 308,
+        "Bitiş SoC": 0.251044101773036,
+        "Tohum": 47
+      },
+      {
+        "Kontrolcü": "Random Forest + SAC",
+        "Birleşik amaçta yakalanan (%)": 55.09615478850076,
+        "Tasarruf (%)": 6.533888513468406,
+        "İhlal düşüşü (%)": 43.48231251158368,
+        "Toplam ihlal": 100.32472342793956,
+        "İhlalli saat": 211,
+        "Bitiş SoC": 0.1,
+        "Tohum": 47
+      },
+      {
+        "Kontrolcü": "Bataryasız [referans]",
+        "Birleşik amaçta yakalanan (%)": 0.0,
+        "Tasarruf (%)": 0.0,
+        "İhlal düşüşü (%)": 0.0,
+        "Toplam ihlal": 177.5103120567376,
+        "İhlalli saat": 315,
+        "Bitiş SoC": 0.5,
+        "Tohum": 48
+      },
+      {
+        "Kontrolcü": "Kural tabanlı yönetim",
+        "Birleşik amaçta yakalanan (%)": 27.86034465744193,
+        "Tasarruf (%)": 5.711600995313355,
+        "İhlal düşüşü (%)": 13.848123714233218,
+        "Toplam ihlal": 152.92846443759913,
+        "İhlalli saat": 301,
+        "Bitiş SoC": 0.1,
+        "Tohum": 48
+      },
+      {
+        "Kontrolcü": "Teorik optimum [referans]",
+        "Birleşik amaçta yakalanan (%)": 100.0,
+        "Tasarruf (%)": 10.548894801790615,
+        "İhlal düşüşü (%)": 83.35007633842618,
+        "Toplam ihlal": 29.555331448868298,
+        "İhlalli saat": 82,
+        "Bitiş SoC": 0.5,
+        "Tohum": 48
+      },
+      {
+        "Kontrolcü": "MPC + Random Forest",
+        "Birleşik amaçta yakalanan (%)": 41.318353061532726,
+        "Tasarruf (%)": 8.307168655675694,
+        "İhlal düşüşü (%)": 21.090021253850576,
+        "Toplam ihlal": 140.07334951619515,
+        "İhlalli saat": 308,
+        "Bitiş SoC": 0.251044101773036,
+        "Tohum": 48
+      },
+      {
+        "Kontrolcü": "Random Forest + SAC",
+        "Birleşik amaçta yakalanan (%)": 55.92366969544249,
+        "Tasarruf (%)": 6.840194386342483,
+        "İhlal düşüşü (%)": 43.43163053637637,
+        "Toplam ihlal": 100.41468916028658,
+        "İhlalli saat": 214,
+        "Bitiş SoC": 0.1,
+        "Tohum": 48
+      },
+      {
+        "Kontrolcü": "Bataryasız [referans]",
+        "Birleşik amaçta yakalanan (%)": 0.0,
+        "Tasarruf (%)": 0.0,
+        "İhlal düşüşü (%)": 0.0,
+        "Toplam ihlal": 177.5103120567376,
+        "İhlalli saat": 315,
+        "Bitiş SoC": 0.5,
+        "Tohum": 49
+      },
+      {
+        "Kontrolcü": "Kural tabanlı yönetim",
+        "Birleşik amaçta yakalanan (%)": 27.86034465744193,
+        "Tasarruf (%)": 5.711600995313355,
+        "İhlal düşüşü (%)": 13.848123714233218,
+        "Toplam ihlal": 152.92846443759913,
+        "İhlalli saat": 301,
+        "Bitiş SoC": 0.1,
+        "Tohum": 49
+      },
+      {
+        "Kontrolcü": "Teorik optimum [referans]",
+        "Birleşik amaçta yakalanan (%)": 100.0,
+        "Tasarruf (%)": 10.548894801790615,
+        "İhlal düşüşü (%)": 83.35007633842618,
+        "Toplam ihlal": 29.555331448868298,
+        "İhlalli saat": 82,
+        "Bitiş SoC": 0.5,
+        "Tohum": 49
+      },
+      {
+        "Kontrolcü": "MPC + Random Forest",
+        "Birleşik amaçta yakalanan (%)": 41.318353061532726,
+        "Tasarruf (%)": 8.307168655675694,
+        "İhlal düşüşü (%)": 21.090021253850576,
+        "Toplam ihlal": 140.07334951619515,
+        "İhlalli saat": 308,
+        "Bitiş SoC": 0.251044101773036,
+        "Tohum": 49
+      },
+      {
+        "Kontrolcü": "Random Forest + SAC",
+        "Birleşik amaçta yakalanan (%)": 57.52278097547837,
+        "Tasarruf (%)": 7.0483732847553995,
+        "İhlal düşüşü (%)": 44.63098572880854,
+        "Toplam ihlal": 98.28571001553154,
+        "İhlalli saat": 209,
+        "Bitiş SoC": 0.1,
+        "Tohum": 49
+      },
+      {
+        "Kontrolcü": "Bataryasız [referans]",
+        "Birleşik amaçta yakalanan (%)": 0.0,
+        "Tasarruf (%)": 0.0,
+        "İhlal düşüşü (%)": 0.0,
+        "Toplam ihlal": 177.5103120567376,
+        "İhlalli saat": 315,
+        "Bitiş SoC": 0.5,
+        "Tohum": 50
+      },
+      {
+        "Kontrolcü": "Kural tabanlı yönetim",
+        "Birleşik amaçta yakalanan (%)": 27.86034465744193,
+        "Tasarruf (%)": 5.711600995313355,
+        "İhlal düşüşü (%)": 13.848123714233218,
+        "Toplam ihlal": 152.92846443759913,
+        "İhlalli saat": 301,
+        "Bitiş SoC": 0.1,
+        "Tohum": 50
+      },
+      {
+        "Kontrolcü": "Teorik optimum [referans]",
+        "Birleşik amaçta yakalanan (%)": 100.0,
+        "Tasarruf (%)": 10.548894801790615,
+        "İhlal düşüşü (%)": 83.35007633842618,
+        "Toplam ihlal": 29.555331448868298,
+        "İhlalli saat": 82,
+        "Bitiş SoC": 0.5,
+        "Tohum": 50
+      },
+      {
+        "Kontrolcü": "MPC + Random Forest",
+        "Birleşik amaçta yakalanan (%)": 41.318353061532726,
+        "Tasarruf (%)": 8.307168655675694,
+        "İhlal düşüşü (%)": 21.090021253850576,
+        "Toplam ihlal": 140.07334951619515,
+        "İhlalli saat": 308,
+        "Bitiş SoC": 0.251044101773036,
+        "Tohum": 50
+      },
+      {
+        "Kontrolcü": "Random Forest + SAC",
+        "Birleşik amaçta yakalanan (%)": 55.95289633889086,
+        "Tasarruf (%)": 5.787698772343065,
+        "İhlal düşüşü (%)": 47.024594324066406,
+        "Toplam ihlal": 94.0368079286724,
+        "İhlalli saat": 195,
+        "Bitiş SoC": 0.1,
+        "Tohum": 50
+      },
+      {
+        "Kontrolcü": "Bataryasız [referans]",
+        "Birleşik amaçta yakalanan (%)": 0.0,
+        "Tasarruf (%)": 0.0,
+        "İhlal düşüşü (%)": 0.0,
+        "Toplam ihlal": 177.5103120567376,
+        "İhlalli saat": 315,
+        "Bitiş SoC": 0.5,
+        "Tohum": 51
+      },
+      {
+        "Kontrolcü": "Kural tabanlı yönetim",
+        "Birleşik amaçta yakalanan (%)": 27.86034465744193,
+        "Tasarruf (%)": 5.711600995313355,
+        "İhlal düşüşü (%)": 13.848123714233218,
+        "Toplam ihlal": 152.92846443759913,
+        "İhlalli saat": 301,
+        "Bitiş SoC": 0.1,
+        "Tohum": 51
+      },
+      {
+        "Kontrolcü": "Teorik optimum [referans]",
+        "Birleşik amaçta yakalanan (%)": 100.0,
+        "Tasarruf (%)": 10.548894801790615,
+        "İhlal düşüşü (%)": 83.35007633842618,
+        "Toplam ihlal": 29.555331448868298,
+        "İhlalli saat": 82,
+        "Bitiş SoC": 0.5,
+        "Tohum": 51
+      },
+      {
+        "Kontrolcü": "MPC + Random Forest",
+        "Birleşik amaçta yakalanan (%)": 41.318353061532726,
+        "Tasarruf (%)": 8.307168655675694,
+        "İhlal düşüşü (%)": 21.090021253850576,
+        "Toplam ihlal": 140.07334951619515,
+        "İhlalli saat": 308,
+        "Bitiş SoC": 0.251044101773036,
+        "Tohum": 51
+      },
+      {
+        "Kontrolcü": "Random Forest + SAC",
+        "Birleşik amaçta yakalanan (%)": 56.14333282730802,
+        "Tasarruf (%)": 6.499716630161531,
+        "İhlal düşüşü (%)": 44.84411367356667,
+        "Toplam ihlal": 97.90738593571128,
+        "İhlalli saat": 198,
+        "Bitiş SoC": 0.1,
+        "Tohum": 51
+      }
+    ],
+    "mean": [
+      {
+        "Kontrolcü": "Bataryasız [referans]",
+        "Birleşik amaçta yakalanan (%)": 0.0,
+        "Tasarruf (%)": 0.0,
+        "İhlal düşüşü (%)": 0.0,
+        "Toplam ihlal": 177.5103120567376,
+        "İhlalli saat": 315.0,
+        "Bitiş SoC": 0.5
+      },
+      {
+        "Kontrolcü": "Kural tabanlı yönetim",
+        "Birleşik amaçta yakalanan (%)": 27.86034465744193,
+        "Tasarruf (%)": 5.711600995313355,
+        "İhlal düşüşü (%)": 13.84812371423322,
+        "Toplam ihlal": 152.92846443759913,
+        "İhlalli saat": 301.0,
+        "Bitiş SoC": 0.1
+      },
+      {
+        "Kontrolcü": "Teorik optimum [referans]",
+        "Birleşik amaçta yakalanan (%)": 100.0,
+        "Tasarruf (%)": 10.548894801790615,
+        "İhlal düşüşü (%)": 83.35007633842618,
+        "Toplam ihlal": 29.555331448868298,
+        "İhlalli saat": 82.0,
+        "Bitiş SoC": 0.5
+      },
+      {
+        "Kontrolcü": "MPC + Random Forest",
+        "Birleşik amaçta yakalanan (%)": 41.318353061532726,
+        "Tasarruf (%)": 8.307168655675694,
+        "İhlal düşüşü (%)": 21.090021253850576,
+        "Toplam ihlal": 140.07334951619515,
+        "İhlalli saat": 308.0,
+        "Bitiş SoC": 0.251044101773036
+      },
+      {
+        "Kontrolcü": "Random Forest + SAC",
+        "Birleşik amaçta yakalanan (%)": 55.979477557134125,
+        "Tasarruf (%)": 6.610110863612131,
+        "İhlal düşüşü (%)": 44.2758942455068,
+        "Toplam ihlal": 98.91603401562736,
+        "İhlalli saat": 201.9,
+        "Bitiş SoC": 0.1
+      }
+    ],
+    "std": [
+      {
+        "Kontrolcü": "Bataryasız [referans]",
+        "Birleşik amaçta yakalanan (%)": 0.0,
+        "Tasarruf (%)": 0.0,
+        "İhlal düşüşü (%)": 0.0,
+        "Toplam ihlal": 0.0,
+        "İhlalli saat": 0.0,
+        "Bitiş SoC": 0.0
+      },
+      {
+        "Kontrolcü": "Kural tabanlı yönetim",
+        "Birleşik amaçta yakalanan (%)": 0.0,
+        "Tasarruf (%)": 0.0,
+        "İhlal düşüşü (%)": 0.0,
+        "Toplam ihlal": 0.0,
+        "İhlalli saat": 0.0,
+        "Bitiş SoC": 0.0
+      },
+      {
+        "Kontrolcü": "Teorik optimum [referans]",
+        "Birleşik amaçta yakalanan (%)": 0.0,
+        "Tasarruf (%)": 0.0,
+        "İhlal düşüşü (%)": 0.0,
+        "Toplam ihlal": 0.0,
+        "İhlalli saat": 0.0,
+        "Bitiş SoC": 0.0
+      },
+      {
+        "Kontrolcü": "MPC + Random Forest",
+        "Birleşik amaçta yakalanan (%)": 0.0,
+        "Tasarruf (%)": 0.0,
+        "İhlal düşüşü (%)": 0.0,
+        "Toplam ihlal": 0.0,
+        "İhlalli saat": 0.0,
+        "Bitiş SoC": 0.0
+      },
+      {
+        "Kontrolcü": "Random Forest + SAC",
+        "Birleşik amaçta yakalanan (%)": 2.7279379834375663,
+        "Tasarruf (%)": 0.49585175887861227,
+        "İhlal düşüşü (%)": 2.981757464766218,
+        "Toplam ihlal": 5.292926980481584,
+        "İhlalli saat": 11.911245853300896,
+        "Bitiş SoC": 0.0
+      }
+    ]
+  },
+  {
+    "key": "macro",
+    "name": "Makro-Şebeke (ENTSO-E/EPİAŞ)",
+    "params": {
+      "lam": 5.0,
+      "viol_pen": 166.94412345967032,
+      "E": 8955.604547137471,
+      "Pb": 2238.9011367843677,
+      "P_lim": 67935.0,
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51
+      ],
+      "test_fold": 5,
+      "base_violation": 1418.0,
+      "base_viol_hours": 3
+    },
+    "per_seed": [
+      {
+        "Kontrolcü": "Bataryasız [referans]",
+        "Birleşik amaçta yakalanan (%)": 0.0,
+        "Tasarruf (%)": 0.0,
+        "İhlal düşüşü (%)": 0.0,
+        "Toplam ihlal": 1418.0,
+        "İhlalli saat": 3,
+        "Bitiş SoC": 0.5,
+        "Tohum": 42
+      },
+      {
+        "Kontrolcü": "Kural tabanlı yönetim",
+        "Birleşik amaçta yakalanan (%)": 71.98459630509846,
+        "Tasarruf (%)": 0.32192535164103914,
+        "İhlal düşüşü (%)": -10.218697939658906,
+        "Toplam ihlal": 1562.9011367843632,
+        "İhlalli saat": 4,
+        "Bitiş SoC": 0.1,
+        "Tohum": 42
+      },
+      {
+        "Kontrolcü": "Teorik optimum [referans]",
+        "Birleşik amaçta yakalanan (%)": 100.0,
+        "Tasarruf (%)": 0.44195146132670554,
+        "İhlal düşüşü (%)": 100.0,
+        "Toplam ihlal": 0.0,
+        "İhlalli saat": 0,
+        "Bitiş SoC": 0.5000000000000007,
+        "Tohum": 42
+      },
+      {
+        "Kontrolcü": "MPC + Random Forest",
+        "Birleşik amaçta yakalanan (%)": 96.82271716799727,
+        "Tasarruf (%)": 0.4454153431225719,
+        "İhlal düşüşü (%)": -283.0352908545113,
+        "Toplam ihlal": 5431.44042431697,
+        "İhlalli saat": 13,
+        "Bitiş SoC": 0.1874999999999999,
+        "Tohum": 42
+      },
+      {
+        "Kontrolcü": "Random Forest + SAC",
+        "Birleşik amaçta yakalanan (%)": 45.357962670433885,
+        "Tasarruf (%)": 0.1989179246939848,
+        "İhlal düşüşü (%)": 78.82305715740742,
+        "Toplam ihlal": 300.2890495079628,
+        "İhlalli saat": 1,
+        "Bitiş SoC": 0.2526009939610958,
+        "Tohum": 42
+      },
+      {
+        "Kontrolcü": "Bataryasız [referans]",
+        "Birleşik amaçta yakalanan (%)": 0.0,
+        "Tasarruf (%)": 0.0,
+        "İhlal düşüşü (%)": 0.0,
+        "Toplam ihlal": 1418.0,
+        "İhlalli saat": 3,
+        "Bitiş SoC": 0.5,
+        "Tohum": 43
+      },
+      {
+        "Kontrolcü": "Kural tabanlı yönetim",
+        "Birleşik amaçta yakalanan (%)": 71.98459630509846,
+        "Tasarruf (%)": 0.32192535164103914,
+        "İhlal düşüşü (%)": -10.218697939658906,
+        "Toplam ihlal": 1562.9011367843632,
+        "İhlalli saat": 4,
+        "Bitiş SoC": 0.1,
+        "Tohum": 43
+      },
+      {
+        "Kontrolcü": "Teorik optimum [referans]",
+        "Birleşik amaçta yakalanan (%)": 100.0,
+        "Tasarruf (%)": 0.44195146132670554,
+        "İhlal düşüşü (%)": 100.0,
+        "Toplam ihlal": 0.0,
+        "İhlalli saat": 0,
+        "Bitiş SoC": 0.5000000000000007,
+        "Tohum": 43
+      },
+      {
+        "Kontrolcü": "MPC + Random Forest",
+        "Birleşik amaçta yakalanan (%)": 96.82271716799727,
+        "Tasarruf (%)": 0.4454153431225719,
+        "İhlal düşüşü (%)": -283.0352908545113,
+        "Toplam ihlal": 5431.44042431697,
+        "İhlalli saat": 13,
+        "Bitiş SoC": 0.1874999999999999,
+        "Tohum": 43
+      },
+      {
+        "Kontrolcü": "Random Forest + SAC",
+        "Birleşik amaçta yakalanan (%)": 61.74888012239538,
+        "Tasarruf (%)": 0.27454979153526077,
+        "İhlal düşüşü (%)": 25.95204513399154,
+        "Toplam ihlal": 1050.0,
+        "İhlalli saat": 2,
+        "Bitiş SoC": 0.1,
+        "Tohum": 43
+      },
+      {
+        "Kontrolcü": "Bataryasız [referans]",
+        "Birleşik amaçta yakalanan (%)": 0.0,
+        "Tasarruf (%)": 0.0,
+        "İhlal düşüşü (%)": 0.0,
+        "Toplam ihlal": 1418.0,
+        "İhlalli saat": 3,
+        "Bitiş SoC": 0.5,
+        "Tohum": 44
+      },
+      {
+        "Kontrolcü": "Kural tabanlı yönetim",
+        "Birleşik amaçta yakalanan (%)": 71.98459630509846,
+        "Tasarruf (%)": 0.32192535164103914,
+        "İhlal düşüşü (%)": -10.218697939658906,
+        "Toplam ihlal": 1562.9011367843632,
+        "İhlalli saat": 4,
+        "Bitiş SoC": 0.1,
+        "Tohum": 44
+      },
+      {
+        "Kontrolcü": "Teorik optimum [referans]",
+        "Birleşik amaçta yakalanan (%)": 100.0,
+        "Tasarruf (%)": 0.44195146132670554,
+        "İhlal düşüşü (%)": 100.0,
+        "Toplam ihlal": 0.0,
+        "İhlalli saat": 0,
+        "Bitiş SoC": 0.5000000000000007,
+        "Tohum": 44
+      },
+      {
+        "Kontrolcü": "MPC + Random Forest",
+        "Birleşik amaçta yakalanan (%)": 96.82271716799727,
+        "Tasarruf (%)": 0.4454153431225719,
+        "İhlal düşüşü (%)": -283.0352908545113,
+        "Toplam ihlal": 5431.44042431697,
+        "İhlalli saat": 13,
+        "Bitiş SoC": 0.1874999999999999,
+        "Tohum": 44
+      },
+      {
+        "Kontrolcü": "Random Forest + SAC",
+        "Birleşik amaçta yakalanan (%)": 44.17788495755253,
+        "Tasarruf (%)": 0.19608475430137792,
+        "İhlal düşüşü (%)": 25.95204513399154,
+        "Toplam ihlal": 1050.0,
+        "İhlalli saat": 2,
+        "Bitiş SoC": 0.5816550132352859,
+        "Tohum": 44
+      },
+      {
+        "Kontrolcü": "Bataryasız [referans]",
+        "Birleşik amaçta yakalanan (%)": 0.0,
+        "Tasarruf (%)": 0.0,
+        "İhlal düşüşü (%)": 0.0,
+        "Toplam ihlal": 1418.0,
+        "İhlalli saat": 3,
+        "Bitiş SoC": 0.5,
+        "Tohum": 45
+      },
+      {
+        "Kontrolcü": "Kural tabanlı yönetim",
+        "Birleşik amaçta yakalanan (%)": 71.98459630509846,
+        "Tasarruf (%)": 0.32192535164103914,
+        "İhlal düşüşü (%)": -10.218697939658906,
+        "Toplam ihlal": 1562.9011367843632,
+        "İhlalli saat": 4,
+        "Bitiş SoC": 0.1,
+        "Tohum": 45
+      },
+      {
+        "Kontrolcü": "Teorik optimum [referans]",
+        "Birleşik amaçta yakalanan (%)": 100.0,
+        "Tasarruf (%)": 0.44195146132670554,
+        "İhlal düşüşü (%)": 100.0,
+        "Toplam ihlal": 0.0,
+        "İhlalli saat": 0,
+        "Bitiş SoC": 0.5000000000000007,
+        "Tohum": 45
+      },
+      {
+        "Kontrolcü": "MPC + Random Forest",
+        "Birleşik amaçta yakalanan (%)": 96.82271716799727,
+        "Tasarruf (%)": 0.4454153431225719,
+        "İhlal düşüşü (%)": -283.0352908545113,
+        "Toplam ihlal": 5431.44042431697,
+        "İhlalli saat": 13,
+        "Bitiş SoC": 0.1874999999999999,
+        "Tohum": 45
+      },
+      {
+        "Kontrolcü": "Random Forest + SAC",
+        "Birleşik amaçta yakalanan (%)": 45.08991261572679,
+        "Tasarruf (%)": 0.20046938319939522,
+        "İhlal düşüşü (%)": 19.184658027877422,
+        "Toplam ihlal": 1145.9615491646982,
+        "İhlalli saat": 2,
+        "Bitiş SoC": 0.5202821526676417,
+        "Tohum": 45
+      },
+      {
+        "Kontrolcü": "Bataryasız [referans]",
+        "Birleşik amaçta yakalanan (%)": 0.0,
+        "Tasarruf (%)": 0.0,
+        "İhlal düşüşü (%)": 0.0,
+        "Toplam ihlal": 1418.0,
+        "İhlalli saat": 3,
+        "Bitiş SoC": 0.5,
+        "Tohum": 46
+      },
+      {
+        "Kontrolcü": "Kural tabanlı yönetim",
+        "Birleşik amaçta yakalanan (%)": 71.98459630509846,
+        "Tasarruf (%)": 0.32192535164103914,
+        "İhlal düşüşü (%)": -10.218697939658906,
+        "Toplam ihlal": 1562.9011367843632,
+        "İhlalli saat": 4,
+        "Bitiş SoC": 0.1,
+        "Tohum": 46
+      },
+      {
+        "Kontrolcü": "Teorik optimum [referans]",
+        "Birleşik amaçta yakalanan (%)": 100.0,
+        "Tasarruf (%)": 0.44195146132670554,
+        "İhlal düşüşü (%)": 100.0,
+        "Toplam ihlal": 0.0,
+        "İhlalli saat": 0,
+        "Bitiş SoC": 0.5000000000000007,
+        "Tohum": 46
+      },
+      {
+        "Kontrolcü": "MPC + Random Forest",
+        "Birleşik amaçta yakalanan (%)": 96.82271716799727,
+        "Tasarruf (%)": 0.4454153431225719,
+        "İhlal düşüşü (%)": -283.0352908545113,
+        "Toplam ihlal": 5431.44042431697,
+        "İhlalli saat": 13,
+        "Bitiş SoC": 0.1874999999999999,
+        "Tohum": 46
+      },
+      {
+        "Kontrolcü": "Random Forest + SAC",
+        "Birleşik amaçta yakalanan (%)": 38.50137548326686,
+        "Tasarruf (%)": 0.175798090708963,
+        "İhlal düşüşü (%)": -83.8951365399319,
+        "Toplam ihlal": 2607.6330361362343,
+        "İhlalli saat": 5,
+        "Bitiş SoC": 0.25593640654115,
+        "Tohum": 46
+      },
+      {
+        "Kontrolcü": "Bataryasız [referans]",
+        "Birleşik amaçta yakalanan (%)": 0.0,
+        "Tasarruf (%)": 0.0,
+        "İhlal düşüşü (%)": 0.0,
+        "Toplam ihlal": 1418.0,
+        "İhlalli saat": 3,
+        "Bitiş SoC": 0.5,
+        "Tohum": 47
+      },
+      {
+        "Kontrolcü": "Kural tabanlı yönetim",
+        "Birleşik amaçta yakalanan (%)": 71.98459630509846,
+        "Tasarruf (%)": 0.32192535164103914,
+        "İhlal düşüşü (%)": -10.218697939658906,
+        "Toplam ihlal": 1562.9011367843632,
+        "İhlalli saat": 4,
+        "Bitiş SoC": 0.1,
+        "Tohum": 47
+      },
+      {
+        "Kontrolcü": "Teorik optimum [referans]",
+        "Birleşik amaçta yakalanan (%)": 100.0,
+        "Tasarruf (%)": 0.44195146132670554,
+        "İhlal düşüşü (%)": 100.0,
+        "Toplam ihlal": 0.0,
+        "İhlalli saat": 0,
+        "Bitiş SoC": 0.5000000000000007,
+        "Tohum": 47
+      },
+      {
+        "Kontrolcü": "MPC + Random Forest",
+        "Birleşik amaçta yakalanan (%)": 96.82271716799727,
+        "Tasarruf (%)": 0.4454153431225719,
+        "İhlal düşüşü (%)": -283.0352908545113,
+        "Toplam ihlal": 5431.44042431697,
+        "İhlalli saat": 13,
+        "Bitiş SoC": 0.1874999999999999,
+        "Tohum": 47
+      },
+      {
+        "Kontrolcü": "Random Forest + SAC",
+        "Birleşik amaçta yakalanan (%)": 47.866279300290365,
+        "Tasarruf (%)": 0.21036754356122248,
+        "İhlal düşüşü (%)": 73.43133558437785,
+        "Toplam ihlal": 376.7436614135222,
+        "İhlalli saat": 2,
+        "Bitiş SoC": 0.6541047148406505,
+        "Tohum": 47
+      },
+      {
+        "Kontrolcü": "Bataryasız [referans]",
+        "Birleşik amaçta yakalanan (%)": 0.0,
+        "Tasarruf (%)": 0.0,
+        "İhlal düşüşü (%)": 0.0,
+        "Toplam ihlal": 1418.0,
+        "İhlalli saat": 3,
+        "Bitiş SoC": 0.5,
+        "Tohum": 48
+      },
+      {
+        "Kontrolcü": "Kural tabanlı yönetim",
+        "Birleşik amaçta yakalanan (%)": 71.98459630509846,
+        "Tasarruf (%)": 0.32192535164103914,
+        "İhlal düşüşü (%)": -10.218697939658906,
+        "Toplam ihlal": 1562.9011367843632,
+        "İhlalli saat": 4,
+        "Bitiş SoC": 0.1,
+        "Tohum": 48
+      },
+      {
+        "Kontrolcü": "Teorik optimum [referans]",
+        "Birleşik amaçta yakalanan (%)": 100.0,
+        "Tasarruf (%)": 0.44195146132670554,
+        "İhlal düşüşü (%)": 100.0,
+        "Toplam ihlal": 0.0,
+        "İhlalli saat": 0,
+        "Bitiş SoC": 0.5000000000000007,
+        "Tohum": 48
+      },
+      {
+        "Kontrolcü": "MPC + Random Forest",
+        "Birleşik amaçta yakalanan (%)": 96.82271716799727,
+        "Tasarruf (%)": 0.4454153431225719,
+        "İhlal düşüşü (%)": -283.0352908545113,
+        "Toplam ihlal": 5431.44042431697,
+        "İhlalli saat": 13,
+        "Bitiş SoC": 0.1874999999999999,
+        "Tohum": 48
+      },
+      {
+        "Kontrolcü": "Random Forest + SAC",
+        "Birleşik amaçta yakalanan (%)": 46.9328668227148,
+        "Tasarruf (%)": 0.20715507748104656,
+        "İhlal düşüşü (%)": 52.69202176339949,
+        "Toplam ihlal": 670.8271313949954,
+        "İhlalli saat": 1,
+        "Bitiş SoC": 0.1,
+        "Tohum": 48
+      },
+      {
+        "Kontrolcü": "Bataryasız [referans]",
+        "Birleşik amaçta yakalanan (%)": 0.0,
+        "Tasarruf (%)": 0.0,
+        "İhlal düşüşü (%)": 0.0,
+        "Toplam ihlal": 1418.0,
+        "İhlalli saat": 3,
+        "Bitiş SoC": 0.5,
+        "Tohum": 49
+      },
+      {
+        "Kontrolcü": "Kural tabanlı yönetim",
+        "Birleşik amaçta yakalanan (%)": 71.98459630509846,
+        "Tasarruf (%)": 0.32192535164103914,
+        "İhlal düşüşü (%)": -10.218697939658906,
+        "Toplam ihlal": 1562.9011367843632,
+        "İhlalli saat": 4,
+        "Bitiş SoC": 0.1,
+        "Tohum": 49
+      },
+      {
+        "Kontrolcü": "Teorik optimum [referans]",
+        "Birleşik amaçta yakalanan (%)": 100.0,
+        "Tasarruf (%)": 0.44195146132670554,
+        "İhlal düşüşü (%)": 100.0,
+        "Toplam ihlal": 0.0,
+        "İhlalli saat": 0,
+        "Bitiş SoC": 0.5000000000000007,
+        "Tohum": 49
+      },
+      {
+        "Kontrolcü": "MPC + Random Forest",
+        "Birleşik amaçta yakalanan (%)": 96.82271716799727,
+        "Tasarruf (%)": 0.4454153431225719,
+        "İhlal düşüşü (%)": -283.0352908545113,
+        "Toplam ihlal": 5431.44042431697,
+        "İhlalli saat": 13,
+        "Bitiş SoC": 0.1874999999999999,
+        "Tohum": 49
+      },
+      {
+        "Kontrolcü": "Random Forest + SAC",
+        "Birleşik amaçta yakalanan (%)": 48.55740355114831,
+        "Tasarruf (%)": 0.21222939903605453,
+        "İhlal düşüşü (%)": 100.0,
+        "Toplam ihlal": 0.0,
+        "İhlalli saat": 0,
+        "Bitiş SoC": 0.28594207093119617,
+        "Tohum": 49
+      },
+      {
+        "Kontrolcü": "Bataryasız [referans]",
+        "Birleşik amaçta yakalanan (%)": 0.0,
+        "Tasarruf (%)": 0.0,
+        "İhlal düşüşü (%)": 0.0,
+        "Toplam ihlal": 1418.0,
+        "İhlalli saat": 3,
+        "Bitiş SoC": 0.5,
+        "Tohum": 50
+      },
+      {
+        "Kontrolcü": "Kural tabanlı yönetim",
+        "Birleşik amaçta yakalanan (%)": 71.98459630509846,
+        "Tasarruf (%)": 0.32192535164103914,
+        "İhlal düşüşü (%)": -10.218697939658906,
+        "Toplam ihlal": 1562.9011367843632,
+        "İhlalli saat": 4,
+        "Bitiş SoC": 0.1,
+        "Tohum": 50
+      },
+      {
+        "Kontrolcü": "Teorik optimum [referans]",
+        "Birleşik amaçta yakalanan (%)": 100.0,
+        "Tasarruf (%)": 0.44195146132670554,
+        "İhlal düşüşü (%)": 100.0,
+        "Toplam ihlal": 0.0,
+        "İhlalli saat": 0,
+        "Bitiş SoC": 0.5000000000000007,
+        "Tohum": 50
+      },
+      {
+        "Kontrolcü": "MPC + Random Forest",
+        "Birleşik amaçta yakalanan (%)": 96.82271716799727,
+        "Tasarruf (%)": 0.4454153431225719,
+        "İhlal düşüşü (%)": -283.0352908545113,
+        "Toplam ihlal": 5431.44042431697,
+        "İhlalli saat": 13,
+        "Bitiş SoC": 0.1874999999999999,
+        "Tohum": 50
+      },
+      {
+        "Kontrolcü": "Random Forest + SAC",
+        "Birleşik amaçta yakalanan (%)": 50.88831613096075,
+        "Tasarruf (%)": 0.22605213558978388,
+        "İhlal düşüşü (%)": 25.92428426528226,
+        "Toplam ihlal": 1050.3936491182976,
+        "İhlalli saat": 2,
+        "Bitiş SoC": 0.2975127175450325,
+        "Tohum": 50
+      },
+      {
+        "Kontrolcü": "Bataryasız [referans]",
+        "Birleşik amaçta yakalanan (%)": 0.0,
+        "Tasarruf (%)": 0.0,
+        "İhlal düşüşü (%)": 0.0,
+        "Toplam ihlal": 1418.0,
+        "İhlalli saat": 3,
+        "Bitiş SoC": 0.5,
+        "Tohum": 51
+      },
+      {
+        "Kontrolcü": "Kural tabanlı yönetim",
+        "Birleşik amaçta yakalanan (%)": 71.98459630509846,
+        "Tasarruf (%)": 0.32192535164103914,
+        "İhlal düşüşü (%)": -10.218697939658906,
+        "Toplam ihlal": 1562.9011367843632,
+        "İhlalli saat": 4,
+        "Bitiş SoC": 0.1,
+        "Tohum": 51
+      },
+      {
+        "Kontrolcü": "Teorik optimum [referans]",
+        "Birleşik amaçta yakalanan (%)": 100.0,
+        "Tasarruf (%)": 0.44195146132670554,
+        "İhlal düşüşü (%)": 100.0,
+        "Toplam ihlal": 0.0,
+        "İhlalli saat": 0,
+        "Bitiş SoC": 0.5000000000000007,
+        "Tohum": 51
+      },
+      {
+        "Kontrolcü": "MPC + Random Forest",
+        "Birleşik amaçta yakalanan (%)": 96.82271716799727,
+        "Tasarruf (%)": 0.4454153431225719,
+        "İhlal düşüşü (%)": -283.0352908545113,
+        "Toplam ihlal": 5431.44042431697,
+        "İhlalli saat": 13,
+        "Bitiş SoC": 0.1874999999999999,
+        "Tohum": 51
+      },
+      {
+        "Kontrolcü": "Random Forest + SAC",
+        "Birleşik amaçta yakalanan (%)": 42.53906314044461,
+        "Tasarruf (%)": 0.1906283890144378,
+        "İhlal düşüşü (%)": -14.450235228342478,
+        "Toplam ihlal": 1622.9043355378963,
+        "İhlalli saat": 4,
+        "Bitiş SoC": 0.1,
+        "Tohum": 51
+      }
+    ],
+    "mean": [
+      {
+        "Kontrolcü": "Bataryasız [referans]",
+        "Birleşik amaçta yakalanan (%)": 0.0,
+        "Tasarruf (%)": 0.0,
+        "İhlal düşüşü (%)": 0.0,
+        "Toplam ihlal": 1418.0,
+        "İhlalli saat": 3.0,
+        "Bitiş SoC": 0.5
+      },
+      {
+        "Kontrolcü": "Kural tabanlı yönetim",
+        "Birleşik amaçta yakalanan (%)": 71.98459630509846,
+        "Tasarruf (%)": 0.32192535164103914,
+        "İhlal düşüşü (%)": -10.218697939658906,
+        "Toplam ihlal": 1562.9011367843632,
+        "İhlalli saat": 4.0,
+        "Bitiş SoC": 0.1
+      },
+      {
+        "Kontrolcü": "Teorik optimum [referans]",
+        "Birleşik amaçta yakalanan (%)": 100.0,
+        "Tasarruf (%)": 0.44195146132670554,
+        "İhlal düşüşü (%)": 100.0,
+        "Toplam ihlal": 0.0,
+        "İhlalli saat": 0.0,
+        "Bitiş SoC": 0.5000000000000007
+      },
+      {
+        "Kontrolcü": "MPC + Random Forest",
+        "Birleşik amaçta yakalanan (%)": 96.82271716799727,
+        "Tasarruf (%)": 0.4454153431225719,
+        "İhlal düşüşü (%)": -283.0352908545113,
+        "Toplam ihlal": 5431.44042431697,
+        "İhlalli saat": 13.0,
+        "Bitiş SoC": 0.1874999999999999
+      },
+      {
+        "Kontrolcü": "Random Forest + SAC",
+        "Birleşik amaçta yakalanan (%)": 47.16599447949343,
+        "Tasarruf (%)": 0.20922524891215272,
+        "İhlal düşüşü (%)": 30.361407529805312,
+        "Toplam ihlal": 987.4752412273607,
+        "İhlalli saat": 2.1,
+        "Bitiş SoC": 0.31480340697220527
+      }
+    ],
+    "std": [
+      {
+        "Kontrolcü": "Bataryasız [referans]",
+        "Birleşik amaçta yakalanan (%)": 0.0,
+        "Tasarruf (%)": 0.0,
+        "İhlal düşüşü (%)": 0.0,
+        "Toplam ihlal": 0.0,
+        "İhlalli saat": 0.0,
+        "Bitiş SoC": 0.0
+      },
+      {
+        "Kontrolcü": "Kural tabanlı yönetim",
+        "Birleşik amaçta yakalanan (%)": 0.0,
+        "Tasarruf (%)": 0.0,
+        "İhlal düşüşü (%)": 0.0,
+        "Toplam ihlal": 0.0,
+        "İhlalli saat": 0.0,
+        "Bitiş SoC": 0.0
+      },
+      {
+        "Kontrolcü": "Teorik optimum [referans]",
+        "Birleşik amaçta yakalanan (%)": 0.0,
+        "Tasarruf (%)": 0.0,
+        "İhlal düşüşü (%)": 0.0,
+        "Toplam ihlal": 0.0,
+        "İhlalli saat": 0.0,
+        "Bitiş SoC": 0.0
+      },
+      {
+        "Kontrolcü": "MPC + Random Forest",
+        "Birleşik amaçta yakalanan (%)": 0.0,
+        "Tasarruf (%)": 0.0,
+        "İhlal düşüşü (%)": 0.0,
+        "Toplam ihlal": 0.0,
+        "İhlalli saat": 0.0,
+        "Bitiş SoC": 0.0
+      },
+      {
+        "Kontrolcü": "Random Forest + SAC",
+        "Birleşik amaçta yakalanan (%)": 6.164314939850743,
+        "Tasarruf (%)": 0.02663300410329861,
+        "İhlal düşüşü (%)": 52.49113577627104,
+        "Toplam ihlal": 744.3243053075233,
+        "İhlalli saat": 1.4491376746189437,
+        "Bitiş SoC": 0.204245111934625
+      }
+    ]
+  },
+  {
+    "key": "meso",
+    "name": "Mezo-Bina (ASHRAE/BDG2)",
+    "params": {
+      "lam": 5.0,
+      "viol_pen": 12.812628782472528,
+      "E": 236.75889374014398,
+      "Pb": 59.189723435035994,
+      "P_lim": 86.25,
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51
+      ],
+      "test_fold": 5,
+      "base_violation": 7685.0,
+      "base_viol_hours": 437
+    },
+    "per_seed": [
+      {
+        "Kontrolcü": "Bataryasız [referans]",
+        "Birleşik amaçta yakalanan (%)": 0.0,
+        "Tasarruf (%)": 0.0,
+        "İhlal düşüşü (%)": 0.0,
+        "Toplam ihlal": 7685.0,
+        "İhlalli saat": 437,
+        "Bitiş SoC": 0.5,
+        "Tohum": 42
+      },
+      {
+        "Kontrolcü": "Kural tabanlı yönetim",
+        "Birleşik amaçta yakalanan (%)": 36.199627840802876,
+        "Tasarruf (%)": 7.546289585811068,
+        "İhlal düşüşü (%)": 14.518727503693697,
+        "Toplam ihlal": 6569.23579134114,
+        "İhlalli saat": 507,
+        "Bitiş SoC": 0.3307199494687366,
+        "Tohum": 42
+      },
+      {
+        "Kontrolcü": "Teorik optimum [referans]",
+        "Birleşik amaçta yakalanan (%)": 100.0,
+        "Tasarruf (%)": 8.695978490709287,
+        "İhlal düşüşü (%)": 96.89384111512773,
+        "Toplam ihlal": 238.70831030243477,
+        "İhlalli saat": 32,
+        "Bitiş SoC": 0.5,
+        "Tohum": 42
+      },
+      {
+        "Kontrolcü": "MPC + Random Forest",
+        "Birleşik amaçta yakalanan (%)": 87.16351894881846,
+        "Tasarruf (%)": 8.374643830869626,
+        "İhlal düşüşü (%)": 80.7408890422607,
+        "Toplam ihlal": 1480.0626771022644,
+        "İhlalli saat": 463,
+        "Bitiş SoC": 0.10173299301864086,
+        "Tohum": 42
+      },
+      {
+        "Kontrolcü": "Random Forest + SAC",
+        "Birleşik amaçta yakalanan (%)": 79.4405827718166,
+        "Tasarruf (%)": 4.6076480559083945,
+        "İhlal düşüşü (%)": 87.72470972658819,
+        "Toplam ihlal": 943.3560575116974,
+        "İhlalli saat": 164,
+        "Bitiş SoC": 0.36762956678867337,
+        "Tohum": 42
+      },
+      {
+        "Kontrolcü": "Bataryasız [referans]",
+        "Birleşik amaçta yakalanan (%)": 0.0,
+        "Tasarruf (%)": 0.0,
+        "İhlal düşüşü (%)": 0.0,
+        "Toplam ihlal": 7685.0,
+        "İhlalli saat": 437,
+        "Bitiş SoC": 0.5,
+        "Tohum": 43
+      },
+      {
+        "Kontrolcü": "Kural tabanlı yönetim",
+        "Birleşik amaçta yakalanan (%)": 36.199627840802876,
+        "Tasarruf (%)": 7.546289585811068,
+        "İhlal düşüşü (%)": 14.518727503693697,
+        "Toplam ihlal": 6569.23579134114,
+        "İhlalli saat": 507,
+        "Bitiş SoC": 0.3307199494687366,
+        "Tohum": 43
+      },
+      {
+        "Kontrolcü": "Teorik optimum [referans]",
+        "Birleşik amaçta yakalanan (%)": 100.0,
+        "Tasarruf (%)": 8.695978490709287,
+        "İhlal düşüşü (%)": 96.89384111512773,
+        "Toplam ihlal": 238.70831030243477,
+        "İhlalli saat": 32,
+        "Bitiş SoC": 0.5,
+        "Tohum": 43
+      },
+      {
+        "Kontrolcü": "MPC + Random Forest",
+        "Birleşik amaçta yakalanan (%)": 87.16351894881846,
+        "Tasarruf (%)": 8.374643830869626,
+        "İhlal düşüşü (%)": 80.7408890422607,
+        "Toplam ihlal": 1480.0626771022644,
+        "İhlalli saat": 463,
+        "Bitiş SoC": 0.10173299301864086,
+        "Tohum": 43
+      },
+      {
+        "Kontrolcü": "Random Forest + SAC",
+        "Birleşik amaçta yakalanan (%)": 81.15440577688547,
+        "Tasarruf (%)": 4.738801959482181,
+        "İhlal düşüşü (%)": 89.46886250008788,
+        "Toplam ihlal": 809.3179168682466,
+        "İhlalli saat": 169,
+        "Bitiş SoC": 0.1,
+        "Tohum": 43
+      },
+      {
+        "Kontrolcü": "Bataryasız [referans]",
+        "Birleşik amaçta yakalanan (%)": 0.0,
+        "Tasarruf (%)": 0.0,
+        "İhlal düşüşü (%)": 0.0,
+        "Toplam ihlal": 7685.0,
+        "İhlalli saat": 437,
+        "Bitiş SoC": 0.5,
+        "Tohum": 44
+      },
+      {
+        "Kontrolcü": "Kural tabanlı yönetim",
+        "Birleşik amaçta yakalanan (%)": 36.199627840802876,
+        "Tasarruf (%)": 7.546289585811068,
+        "İhlal düşüşü (%)": 14.518727503693697,
+        "Toplam ihlal": 6569.23579134114,
+        "İhlalli saat": 507,
+        "Bitiş SoC": 0.3307199494687366,
+        "Tohum": 44
+      },
+      {
+        "Kontrolcü": "Teorik optimum [referans]",
+        "Birleşik amaçta yakalanan (%)": 100.0,
+        "Tasarruf (%)": 8.695978490709287,
+        "İhlal düşüşü (%)": 96.89384111512773,
+        "Toplam ihlal": 238.70831030243477,
+        "İhlalli saat": 32,
+        "Bitiş SoC": 0.5,
+        "Tohum": 44
+      },
+      {
+        "Kontrolcü": "MPC + Random Forest",
+        "Birleşik amaçta yakalanan (%)": 87.16351894881846,
+        "Tasarruf (%)": 8.374643830869626,
+        "İhlal düşüşü (%)": 80.7408890422607,
+        "Toplam ihlal": 1480.0626771022644,
+        "İhlalli saat": 463,
+        "Bitiş SoC": 0.10173299301864086,
+        "Tohum": 44
+      },
+      {
+        "Kontrolcü": "Random Forest + SAC",
+        "Birleşik amaçta yakalanan (%)": 84.46192178652838,
+        "Tasarruf (%)": 5.476938752836657,
+        "İhlal düşüşü (%)": 90.56808767419552,
+        "Toplam ihlal": 724.8424622380733,
+        "İhlalli saat": 150,
+        "Bitiş SoC": 0.6116327077150345,
+        "Tohum": 44
+      },
+      {
+        "Kontrolcü": "Bataryasız [referans]",
+        "Birleşik amaçta yakalanan (%)": 0.0,
+        "Tasarruf (%)": 0.0,
+        "İhlal düşüşü (%)": 0.0,
+        "Toplam ihlal": 7685.0,
+        "İhlalli saat": 437,
+        "Bitiş SoC": 0.5,
+        "Tohum": 45
+      },
+      {
+        "Kontrolcü": "Kural tabanlı yönetim",
+        "Birleşik amaçta yakalanan (%)": 36.199627840802876,
+        "Tasarruf (%)": 7.546289585811068,
+        "İhlal düşüşü (%)": 14.518727503693697,
+        "Toplam ihlal": 6569.23579134114,
+        "İhlalli saat": 507,
+        "Bitiş SoC": 0.3307199494687366,
+        "Tohum": 45
+      },
+      {
+        "Kontrolcü": "Teorik optimum [referans]",
+        "Birleşik amaçta yakalanan (%)": 100.0,
+        "Tasarruf (%)": 8.695978490709287,
+        "İhlal düşüşü (%)": 96.89384111512773,
+        "Toplam ihlal": 238.70831030243477,
+        "İhlalli saat": 32,
+        "Bitiş SoC": 0.5,
+        "Tohum": 45
+      },
+      {
+        "Kontrolcü": "MPC + Random Forest",
+        "Birleşik amaçta yakalanan (%)": 87.16351894881846,
+        "Tasarruf (%)": 8.374643830869626,
+        "İhlal düşüşü (%)": 80.7408890422607,
+        "Toplam ihlal": 1480.0626771022644,
+        "İhlalli saat": 463,
+        "Bitiş SoC": 0.10173299301864086,
+        "Tohum": 45
+      },
+      {
+        "Kontrolcü": "Random Forest + SAC",
+        "Birleşik amaçta yakalanan (%)": 81.97793775385568,
+        "Tasarruf (%)": 5.073894748652422,
+        "İhlal düşüşü (%)": 89.03540713056385,
+        "Toplam ihlal": 842.6289620161683,
+        "İhlalli saat": 159,
+        "Bitiş SoC": 0.5397462282329797,
+        "Tohum": 45
+      },
+      {
+        "Kontrolcü": "Bataryasız [referans]",
+        "Birleşik amaçta yakalanan (%)": 0.0,
+        "Tasarruf (%)": 0.0,
+        "İhlal düşüşü (%)": 0.0,
+        "Toplam ihlal": 7685.0,
+        "İhlalli saat": 437,
+        "Bitiş SoC": 0.5,
+        "Tohum": 46
+      },
+      {
+        "Kontrolcü": "Kural tabanlı yönetim",
+        "Birleşik amaçta yakalanan (%)": 36.199627840802876,
+        "Tasarruf (%)": 7.546289585811068,
+        "İhlal düşüşü (%)": 14.518727503693697,
+        "Toplam ihlal": 6569.23579134114,
+        "İhlalli saat": 507,
+        "Bitiş SoC": 0.3307199494687366,
+        "Tohum": 46
+      },
+      {
+        "Kontrolcü": "Teorik optimum [referans]",
+        "Birleşik amaçta yakalanan (%)": 100.0,
+        "Tasarruf (%)": 8.695978490709287,
+        "İhlal düşüşü (%)": 96.89384111512773,
+        "Toplam ihlal": 238.70831030243477,
+        "İhlalli saat": 32,
+        "Bitiş SoC": 0.5,
+        "Tohum": 46
+      },
+      {
+        "Kontrolcü": "MPC + Random Forest",
+        "Birleşik amaçta yakalanan (%)": 87.16351894881846,
+        "Tasarruf (%)": 8.374643830869626,
+        "İhlal düşüşü (%)": 80.7408890422607,
+        "Toplam ihlal": 1480.0626771022644,
+        "İhlalli saat": 463,
+        "Bitiş SoC": 0.10173299301864086,
+        "Tohum": 46
+      },
+      {
+        "Kontrolcü": "Random Forest + SAC",
+        "Birleşik amaçta yakalanan (%)": 84.43166531755145,
+        "Tasarruf (%)": 5.9332876301534405,
+        "İhlal düşüşü (%)": 88.39365882022356,
+        "Toplam ihlal": 891.9473196658192,
+        "İhlalli saat": 189,
+        "Bitiş SoC": 0.15259720291942358,
+        "Tohum": 46
+      },
+      {
+        "Kontrolcü": "Bataryasız [referans]",
+        "Birleşik amaçta yakalanan (%)": 0.0,
+        "Tasarruf (%)": 0.0,
+        "İhlal düşüşü (%)": 0.0,
+        "Toplam ihlal": 7685.0,
+        "İhlalli saat": 437,
+        "Bitiş SoC": 0.5,
+        "Tohum": 47
+      },
+      {
+        "Kontrolcü": "Kural tabanlı yönetim",
+        "Birleşik amaçta yakalanan (%)": 36.199627840802876,
+        "Tasarruf (%)": 7.546289585811068,
+        "İhlal düşüşü (%)": 14.518727503693697,
+        "Toplam ihlal": 6569.23579134114,
+        "İhlalli saat": 507,
+        "Bitiş SoC": 0.3307199494687366,
+        "Tohum": 47
+      },
+      {
+        "Kontrolcü": "Teorik optimum [referans]",
+        "Birleşik amaçta yakalanan (%)": 100.0,
+        "Tasarruf (%)": 8.695978490709287,
+        "İhlal düşüşü (%)": 96.89384111512773,
+        "Toplam ihlal": 238.70831030243477,
+        "İhlalli saat": 32,
+        "Bitiş SoC": 0.5,
+        "Tohum": 47
+      },
+      {
+        "Kontrolcü": "MPC + Random Forest",
+        "Birleşik amaçta yakalanan (%)": 87.16351894881846,
+        "Tasarruf (%)": 8.374643830869626,
+        "İhlal düşüşü (%)": 80.7408890422607,
+        "Toplam ihlal": 1480.0626771022644,
+        "İhlalli saat": 463,
+        "Bitiş SoC": 0.10173299301864086,
+        "Tohum": 47
+      },
+      {
+        "Kontrolcü": "Random Forest + SAC",
+        "Birleşik amaçta yakalanan (%)": 77.20081264084001,
+        "Tasarruf (%)": 3.3723689333014284,
+        "İhlal düşüşü (%)": 90.41748722033915,
+        "Toplam ihlal": 736.4161071169356,
+        "İhlalli saat": 165,
+        "Bitiş SoC": 0.18693708144128324,
+        "Tohum": 47
+      },
+      {
+        "Kontrolcü": "Bataryasız [referans]",
+        "Birleşik amaçta yakalanan (%)": 0.0,
+        "Tasarruf (%)": 0.0,
+        "İhlal düşüşü (%)": 0.0,
+        "Toplam ihlal": 7685.0,
+        "İhlalli saat": 437,
+        "Bitiş SoC": 0.5,
+        "Tohum": 48
+      },
+      {
+        "Kontrolcü": "Kural tabanlı yönetim",
+        "Birleşik amaçta yakalanan (%)": 36.199627840802876,
+        "Tasarruf (%)": 7.546289585811068,
+        "İhlal düşüşü (%)": 14.518727503693697,
+        "Toplam ihlal": 6569.23579134114,
+        "İhlalli saat": 507,
+        "Bitiş SoC": 0.3307199494687366,
+        "Tohum": 48
+      },
+      {
+        "Kontrolcü": "Teorik optimum [referans]",
+        "Birleşik amaçta yakalanan (%)": 100.0,
+        "Tasarruf (%)": 8.695978490709287,
+        "İhlal düşüşü (%)": 96.89384111512773,
+        "Toplam ihlal": 238.70831030243477,
+        "İhlalli saat": 32,
+        "Bitiş SoC": 0.5,
+        "Tohum": 48
+      },
+      {
+        "Kontrolcü": "MPC + Random Forest",
+        "Birleşik amaçta yakalanan (%)": 87.16351894881846,
+        "Tasarruf (%)": 8.374643830869626,
+        "İhlal düşüşü (%)": 80.7408890422607,
+        "Toplam ihlal": 1480.0626771022644,
+        "İhlalli saat": 463,
+        "Bitiş SoC": 0.10173299301864086,
+        "Tohum": 48
+      },
+      {
+        "Kontrolcü": "Random Forest + SAC",
+        "Birleşik amaçta yakalanan (%)": 79.43968247868095,
+        "Tasarruf (%)": 4.309792129391519,
+        "İhlal düşüşü (%)": 89.11554614188665,
+        "Toplam ihlal": 836.4702789960111,
+        "İhlalli saat": 166,
+        "Bitiş SoC": 0.3770009636878967,
+        "Tohum": 48
+      },
+      {
+        "Kontrolcü": "Bataryasız [referans]",
+        "Birleşik amaçta yakalanan (%)": 0.0,
+        "Tasarruf (%)": 0.0,
+        "İhlal düşüşü (%)": 0.0,
+        "Toplam ihlal": 7685.0,
+        "İhlalli saat": 437,
+        "Bitiş SoC": 0.5,
+        "Tohum": 49
+      },
+      {
+        "Kontrolcü": "Kural tabanlı yönetim",
+        "Birleşik amaçta yakalanan (%)": 36.199627840802876,
+        "Tasarruf (%)": 7.546289585811068,
+        "İhlal düşüşü (%)": 14.518727503693697,
+        "Toplam ihlal": 6569.23579134114,
+        "İhlalli saat": 507,
+        "Bitiş SoC": 0.3307199494687366,
+        "Tohum": 49
+      },
+      {
+        "Kontrolcü": "Teorik optimum [referans]",
+        "Birleşik amaçta yakalanan (%)": 100.0,
+        "Tasarruf (%)": 8.695978490709287,
+        "İhlal düşüşü (%)": 96.89384111512773,
+        "Toplam ihlal": 238.70831030243477,
+        "İhlalli saat": 32,
+        "Bitiş SoC": 0.5,
+        "Tohum": 49
+      },
+      {
+        "Kontrolcü": "MPC + Random Forest",
+        "Birleşik amaçta yakalanan (%)": 87.16351894881846,
+        "Tasarruf (%)": 8.374643830869626,
+        "İhlal düşüşü (%)": 80.7408890422607,
+        "Toplam ihlal": 1480.0626771022644,
+        "İhlalli saat": 463,
+        "Bitiş SoC": 0.10173299301864086,
+        "Tohum": 49
+      },
+      {
+        "Kontrolcü": "Random Forest + SAC",
+        "Birleşik amaçta yakalanan (%)": 80.81100326166091,
+        "Tasarruf (%)": 5.40781125808192,
+        "İhlal düşüşü (%)": 85.86984511182636,
+        "Toplam ihlal": 1085.9024031561437,
+        "İhlalli saat": 239,
+        "Bitiş SoC": 0.1,
+        "Tohum": 49
+      },
+      {
+        "Kontrolcü": "Bataryasız [referans]",
+        "Birleşik amaçta yakalanan (%)": 0.0,
+        "Tasarruf (%)": 0.0,
+        "İhlal düşüşü (%)": 0.0,
+        "Toplam ihlal": 7685.0,
+        "İhlalli saat": 437,
+        "Bitiş SoC": 0.5,
+        "Tohum": 50
+      },
+      {
+        "Kontrolcü": "Kural tabanlı yönetim",
+        "Birleşik amaçta yakalanan (%)": 36.199627840802876,
+        "Tasarruf (%)": 7.546289585811068,
+        "İhlal düşüşü (%)": 14.518727503693697,
+        "Toplam ihlal": 6569.23579134114,
+        "İhlalli saat": 507,
+        "Bitiş SoC": 0.3307199494687366,
+        "Tohum": 50
+      },
+      {
+        "Kontrolcü": "Teorik optimum [referans]",
+        "Birleşik amaçta yakalanan (%)": 100.0,
+        "Tasarruf (%)": 8.695978490709287,
+        "İhlal düşüşü (%)": 96.89384111512773,
+        "Toplam ihlal": 238.70831030243477,
+        "İhlalli saat": 32,
+        "Bitiş SoC": 0.5,
+        "Tohum": 50
+      },
+      {
+        "Kontrolcü": "MPC + Random Forest",
+        "Birleşik amaçta yakalanan (%)": 87.16351894881846,
+        "Tasarruf (%)": 8.374643830869626,
+        "İhlal düşüşü (%)": 80.7408890422607,
+        "Toplam ihlal": 1480.0626771022644,
+        "İhlalli saat": 463,
+        "Bitiş SoC": 0.10173299301864086,
+        "Tohum": 50
+      },
+      {
+        "Kontrolcü": "Random Forest + SAC",
+        "Birleşik amaçta yakalanan (%)": 80.49446843642902,
+        "Tasarruf (%)": 4.434736030470423,
+        "İhlal düşüşü (%)": 89.98231036198973,
+        "Toplam ihlal": 769.8594486810897,
+        "İhlalli saat": 172,
+        "Bitiş SoC": 0.19071555361151696,
+        "Tohum": 50
+      },
+      {
+        "Kontrolcü": "Bataryasız [referans]",
+        "Birleşik amaçta yakalanan (%)": 0.0,
+        "Tasarruf (%)": 0.0,
+        "İhlal düşüşü (%)": 0.0,
+        "Toplam ihlal": 7685.0,
+        "İhlalli saat": 437,
+        "Bitiş SoC": 0.5,
+        "Tohum": 51
+      },
+      {
+        "Kontrolcü": "Kural tabanlı yönetim",
+        "Birleşik amaçta yakalanan (%)": 36.199627840802876,
+        "Tasarruf (%)": 7.546289585811068,
+        "İhlal düşüşü (%)": 14.518727503693697,
+        "Toplam ihlal": 6569.23579134114,
+        "İhlalli saat": 507,
+        "Bitiş SoC": 0.3307199494687366,
+        "Tohum": 51
+      },
+      {
+        "Kontrolcü": "Teorik optimum [referans]",
+        "Birleşik amaçta yakalanan (%)": 100.0,
+        "Tasarruf (%)": 8.695978490709287,
+        "İhlal düşüşü (%)": 96.89384111512773,
+        "Toplam ihlal": 238.70831030243477,
+        "İhlalli saat": 32,
+        "Bitiş SoC": 0.5,
+        "Tohum": 51
+      },
+      {
+        "Kontrolcü": "MPC + Random Forest",
+        "Birleşik amaçta yakalanan (%)": 87.16351894881846,
+        "Tasarruf (%)": 8.374643830869626,
+        "İhlal düşüşü (%)": 80.7408890422607,
+        "Toplam ihlal": 1480.0626771022644,
+        "İhlalli saat": 463,
+        "Bitiş SoC": 0.10173299301864086,
+        "Tohum": 51
+      },
+      {
+        "Kontrolcü": "Random Forest + SAC",
+        "Birleşik amaçta yakalanan (%)": 79.53001699391575,
+        "Tasarruf (%)": 4.910544498921152,
+        "İhlal düşüşü (%)": 86.43208155230133,
+        "Toplam ihlal": 1042.6945327056426,
+        "İhlalli saat": 182,
+        "Bitiş SoC": 0.1,
+        "Tohum": 51
+      }
+    ],
+    "mean": [
+      {
+        "Kontrolcü": "Bataryasız [referans]",
+        "Birleşik amaçta yakalanan (%)": 0.0,
+        "Tasarruf (%)": 0.0,
+        "İhlal düşüşü (%)": 0.0,
+        "Toplam ihlal": 7685.0,
+        "İhlalli saat": 437.0,
+        "Bitiş SoC": 0.5
+      },
+      {
+        "Kontrolcü": "Kural tabanlı yönetim",
+        "Birleşik amaçta yakalanan (%)": 36.199627840802876,
+        "Tasarruf (%)": 7.546289585811069,
+        "İhlal düşüşü (%)": 14.518727503693697,
+        "Toplam ihlal": 6569.23579134114,
+        "İhlalli saat": 507.0,
+        "Bitiş SoC": 0.3307199494687366
+      },
+      {
+        "Kontrolcü": "Teorik optimum [referans]",
+        "Birleşik amaçta yakalanan (%)": 100.0,
+        "Tasarruf (%)": 8.695978490709287,
+        "İhlal düşüşü (%)": 96.89384111512773,
+        "Toplam ihlal": 238.70831030243477,
+        "İhlalli saat": 32.0,
+        "Bitiş SoC": 0.5
+      },
+      {
+        "Kontrolcü": "MPC + Random Forest",
+        "Birleşik amaçta yakalanan (%)": 87.16351894881846,
+        "Tasarruf (%)": 8.374643830869626,
+        "İhlal düşüşü (%)": 80.7408890422607,
+        "Toplam ihlal": 1480.0626771022644,
+        "İhlalli saat": 463.0,
+        "Bitiş SoC": 0.10173299301864085
+      },
+      {
+        "Kontrolcü": "Random Forest + SAC",
+        "Birleşik amaçta yakalanan (%)": 80.89424972181642,
+        "Tasarruf (%)": 4.826582399719954,
+        "İhlal düşüşü (%)": 88.70079962400023,
+        "Toplam ihlal": 868.3435488955827,
+        "İhlalli saat": 175.5,
+        "Bitiş SoC": 0.2726259304396808
+      }
+    ],
+    "std": [
+      {
+        "Kontrolcü": "Bataryasız [referans]",
+        "Birleşik amaçta yakalanan (%)": 0.0,
+        "Tasarruf (%)": 0.0,
+        "İhlal düşüşü (%)": 0.0,
+        "Toplam ihlal": 0.0,
+        "İhlalli saat": 0.0,
+        "Bitiş SoC": 0.0
+      },
+      {
+        "Kontrolcü": "Kural tabanlı yönetim",
+        "Birleşik amaçta yakalanan (%)": 0.0,
+        "Tasarruf (%)": 0.0,
+        "İhlal düşüşü (%)": 0.0,
+        "Toplam ihlal": 0.0,
+        "İhlalli saat": 0.0,
+        "Bitiş SoC": 0.0
+      },
+      {
+        "Kontrolcü": "Teorik optimum [referans]",
+        "Birleşik amaçta yakalanan (%)": 0.0,
+        "Tasarruf (%)": 0.0,
+        "İhlal düşüşü (%)": 0.0,
+        "Toplam ihlal": 0.0,
+        "İhlalli saat": 0.0,
+        "Bitiş SoC": 0.0
+      },
+      {
+        "Kontrolcü": "MPC + Random Forest",
+        "Birleşik amaçta yakalanan (%)": 0.0,
+        "Tasarruf (%)": 0.0,
+        "İhlal düşüşü (%)": 0.0,
+        "Toplam ihlal": 0.0,
+        "İhlalli saat": 0.0,
+        "Bitiş SoC": 0.0
+      },
+      {
+        "Kontrolcü": "Random Forest + SAC",
+        "Birleşik amaçta yakalanan (%)": 2.270142699984967,
+        "Tasarruf (%)": 0.7183925025932172,
+        "İhlal düşüşü (%)": 1.60410654524932,
+        "Toplam ihlal": 123.27558800241,
+        "İhlalli saat": 24.869660230891775,
+        "Bitiş SoC": 0.18975323352605158
+      }
+    ]
+  }
+]
